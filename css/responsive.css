@@ -1,0 +1,174 @@
+@media (max-width:1024px){
+    .list-service{
+        padding:120px 0;
+    }
+    .logo-info{
+        /* padding: 0 375px 0 0; */
+        margin-right: 0;
+    }
+    .ozone-logo{
+        margin-left: 10px;
+    }
+    .slider-des .text-des{
+        font-size:22px;
+    }
+    .slider-des .text-des:nth-child(2){
+        font-size:14px;
+    }
+    .slider-des {
+        top: 35%;
+        left: 15%;
+        right: 40%;
+    }
+    .slider-icon i{
+        padding-bottom: 30px;
+    }
+    .about-content {
+        padding: 0 20px;
+    }
+    .about-img-text{
+        bottom:27%;
+    }
+    .about-icon-vector {
+        bottom: 0;
+        top: 44%;
+        left: 7%;
+    }
+    .client-text-des{
+        padding: 0 0 0 10px;
+    }
+    .ozone-client {
+        padding-bottom: 0;
+    }
+}
+@media (max-width:768px){
+    .client-text-des{
+        padding: 30px 0 0 0;
+    }
+    .client-img-text{
+        bottom: 0%;
+        right: 0px;
+    }
+    .client-img img{
+        width: 100%;
+    }
+    .about-img-text {
+        bottom: 0%;
+        right: 13px;
+    }
+    .about-icon-vector {
+        top: 73%;
+        left: 50%;
+    }
+    .about-content{
+        text-align: justify;
+    }
+    .about-content {
+        padding: 20px 0px;
+    }
+    .ozone-nav{
+        display:none;
+    }
+    .slider-img {
+        margin-top: 0px;
+    }
+    .slider-des {
+        top: 9%;
+    }
+    .info-item-time {
+        margin-right: 0px;
+    }
+    .ozone-logo{
+        margin: 0;
+
+    }
+    .logo-info {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    .info-item-hotline, .info-item-email {
+        margin-right: 45px;
+    }
+    .info-item-time{
+        margin-right: 0;
+    }
+    .client-title{
+        padding: 20px 0 0;
+    }
+    .footer-list-title{
+        margin-left: 0;
+    }
+    .footer-list-menu{
+        padding-left: 1rem;
+    }
+    .company-card:nth-child(2){
+        box-shadow: none;
+    }
+    .client-ellip{
+        padding-left: 63px;
+    }
+    .company-card{
+        padding: 0 30px;
+        margin-bottom:20px ;
+    }
+    .ozone-about{
+        padding: 10px 0;
+    }
+    .list-service {
+        padding: 0;
+    }
+    .col-service-1{
+        padding: 18px 28px 16px 12px;
+    }
+    .col-service-2,.col-service-3,
+    .col-service-4{
+    padding: 48px 8px 46px 12px;
+}
+}
+@media (max-width:541px){
+    .logo-info{
+        display:none;
+    }
+    .slider-des .text-des{
+        font-size:30px;
+    }
+    .slider-des{
+        top:60px;
+        left:0;
+        width: 100%;
+        padding: 0 10px
+    }
+    .slider-icon{
+        top:50%;
+        left:0;
+        display:block;
+        padding:0 10px;
+    }
+    .slider-icon i {
+        padding-bottom: 0px;
+    }
+    .about-content{
+        padding-top: 75px;
+    }
+    .about-img-text{
+        bottom:-20%;
+        padding: 43px 0 30px 70px;
+    }
+    .about-icon-vector {
+        bottom: 0;
+        top:70%;
+        left: 0;
+    }
+    .list-groupitem{
+        display:block;
+    }
+    .list-groupitem img{
+        width: 100%;
+        height:auto;
+    }
+    .company-card {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+}
