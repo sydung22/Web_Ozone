@@ -13,20 +13,56 @@
     letter-spacing: 0.5px;
 }
 .logo-info{
-    padding: 0 375px 0 0
+    /* padding: 0 375px 0 0; */
+    padding-right: 270px;
 }
 .logo-info p{
     font-size: 14px;
     font-weight: 500;
     color:#2C4985;
 }
-.logo-info .info-item{
-    padding: 0 0 0 106px;
+.info-item-hotline, .info-item-email,
+.info-item-time{
+    display:table;
+    margin-right: 100px;
 }
-.logo-info .icon-info{
+.logo-info .info-item-hotline::before{
+    position: absolute;
+    content:"";
+    background-image: url("../img/icon-1.png");
+    background-repeat: no-repeat;
+    top:50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height:30px;
+    right: calc((100% + 5px))
+}
+.logo-info .info-item-email::before{
+    position: absolute;
+    content:"";
+    background-image: url("../img/icon-2.png");
+    background-repeat: no-repeat;
+    top:50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height:30px;
+    right: calc((100% + 5px))
+}
+.logo-info .info-item-time::before{
+    position: absolute;
+    content:"";
+    background-image: url("../img/icon-3.png");
+    background-repeat: no-repeat;
+    top:50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height:30px;
+    right: calc((100% + 5px))
+}
+/* .logo-info .icon-info{
     top:10px;
     left:70px;
-}
+} */
 /* .logo-info .info-item{
     position: relative;
     display:table;
@@ -114,6 +150,42 @@
 }
 /* Ozone Service */
 /* Ozone Company */
+.company-time{
+    margin-left: 24px;
+    position: relative;
+    display: table;
+}
+.company-time p{
+    margin:0
+}
+.company-time:before{
+    position: absolute;
+    content:"";
+    background-image: url("../img/icon-com1.png");
+    top:50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    right: calc((100% + 5px))
+}
+.company-viewmore{
+    margin-right: 24px;
+    position: relative;
+    display: table;
+}
+.company-viewmore p{
+    margin:0
+}
+.company-viewmore::after{
+    position: absolute;
+    content:"";
+    background-image: url("../img/icon-com2.png");
+    top:50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    left: calc((100% + 5px))
+}
 /* Ozone Client */
 .ozone-client{
     padding-bottom: 143px;
@@ -146,6 +218,16 @@
 }
 /* Ozone Group */
 /* Ozone Contact */
+.ozone-contact{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/service-bg.jpg); */
+    background-image:url(../img/service-bg.jpg) ;
+    background-size:cover;
+    background-position: bottom;
+}
+.contain-contact{
+    background-color: #265BC5;
+    opacity: 0.9;
+}
 /* Ozone Footer */
 .footer-list-menu li::marker{
     color: #EE1F23;
