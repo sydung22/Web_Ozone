@@ -138,11 +138,11 @@
 }
 .about-icon-vector{
     bottom:5%;
-    left:31%;
+    left:32%;
     z-index: 1;
 }
 .about-icon-vector img{
-    padding-left: 10px;
+    padding-left: 4px;
 }
 .about-img-text{
     background:#265BC5;

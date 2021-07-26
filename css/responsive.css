@@ -157,7 +157,7 @@
     .about-icon-vector {
         bottom: 0;
         top:70%;
-        left: 0;
+        left:22px;
     }
     .list-groupitem{
         display:block;
@@ -169,6 +169,9 @@
     .company-card {
         padding: 0;
         margin-bottom: 20px;
+    }
+    .ozone-company,.ozone-footer .container-fluid{
+        padding: 20px 0;
     }
 
 }
