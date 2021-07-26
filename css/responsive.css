@@ -152,7 +152,7 @@
     }
     .about-img-text{
         bottom:-20%;
-        padding: 43px 0 30px 70px;
+        padding: 43px 30px 30px 40px;
     }
     .about-icon-vector {
         bottom: 0;
@@ -172,5 +172,18 @@
     }
     .ozone-company,.ozone-footer .container-fluid{
         padding: 20px 0;
+    }
+    .about-icon-vector{
+        display:none;
+    }
+    .client-icon-vector{
+        display:none;
+    }
+    .col-img-client{
+        padding:0;
+    }
+    .client-ellip{
+        padding:0;
+        justify-content:center;
     }
 }
