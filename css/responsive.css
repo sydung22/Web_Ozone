@@ -1,3 +1,13 @@
+@media (max-width:1812px){
+    .logo-info{
+        margin-right:0;
+    }
+}
+@media (max-width:1406px){
+    .ozone-logo{
+        margin-left: 200px;
+    }
+}
 @media (max-width:1024px){
     .list-service{
         padding:120px 0;
