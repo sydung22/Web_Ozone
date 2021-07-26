@@ -115,7 +115,7 @@
         padding: 10px 0;
     }
     .list-service {
-        padding: 0;
+        padding: 20px 0;
     }
     .col-service-1{
         padding: 18px 28px 16px 12px;
@@ -123,7 +123,10 @@
     .col-service-2,.col-service-3,
     .col-service-4{
     padding: 48px 8px 46px 12px;
-}
+    }
+    .slider-img > img{
+        height:600px;
+    }
 }
 @media (max-width:541px){
     .logo-info{
