@@ -9,6 +9,13 @@
     }
 }
 @media (max-width:1024px){
+    .client-img-text{
+        bottom: 0px;
+        right: 166px;
+    }
+    .col-img-client{
+        text-align:center;
+    }
     .list-service{
         padding:120px 0;
     }
@@ -41,8 +48,8 @@
     }
     .about-icon-vector {
         bottom: 0;
-        top: 44%;
-        left: 7%;
+        top: 240px;
+        left: 20px;
     }
     .client-text-des{
         padding: 0 0 0 10px;
@@ -52,6 +59,10 @@
     }
 }
 @media (max-width:768px){
+    .about-icon-vector{
+        top: 441px;
+        left: 370px;
+    }
     .client-text-des{
         padding: 30px 0 0 0;
     }
@@ -63,12 +74,8 @@
         width: 100%;
     }
     .about-img-text {
-        bottom: 0%;
+        bottom: 0;
         right: 13px;
-    }
-    .about-icon-vector {
-        top: 73%;
-        left: 50%;
     }
     .about-content{
         text-align: justify;
@@ -111,9 +118,6 @@
     .footer-list-menu{
         padding-left: 1rem;
     }
-    .company-card:nth-child(2){
-        box-shadow: none;
-    }
     .client-ellip{
         padding-left: 63px;
     }
@@ -125,10 +129,10 @@
         padding: 10px 0;
     }
     .list-service {
-        padding: 20px 0;
+        padding: 100px 0;
     }
     .col-service-1{
-        padding: 18px 28px 16px 12px;
+        padding: 49px 28px 16px 12px;
     }
     .col-service-2,.col-service-3,
     .col-service-4{
@@ -139,6 +143,9 @@
     }
 }
 @media (max-width:541px){
+    .list-service {
+        padding: 0;
+    }
     .logo-info{
         display:none;
     }
@@ -198,5 +205,10 @@
     .client-ellip{
         padding:0;
         justify-content:center;
+    }
+}
+@media (max-width:375px){
+    .about-img-text{
+        bottom:-70px;
     }
 }

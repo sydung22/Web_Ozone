@@ -87,8 +87,14 @@
     padding: 28px 0 ;
     margin: 0 10px 0 30px;
 }
-.ozone-nav ul li:first-child{
+/* .ozone-nav ul li:first-child{
     border-bottom: 2px solid #E0E0E0;
+} */
+.ozone-nav ul li:hover{
+    border-bottom: 2px solid #E0E0E0;
+}
+.ozone-nav ul li{
+    border-bottom: 2px solid transparent;
 }
 .ozone-nav ul li a{
     text-decoration: none;
@@ -137,8 +143,8 @@
     padding: 0 50px;
 }
 .about-icon-vector{
-    bottom:5%;
-    left:32%;
+    bottom: 55px;
+    left: 198px;
     z-index: 1;
 }
 .about-icon-vector img{
@@ -149,8 +155,8 @@
     color: #f8f8f8;
     max-width: 327px;
     padding: 43px 0 30px 73px;
-    bottom: -10%;
-    right: 10%;
+    bottom: -35px;
+    right: 63px;
 }
 .about-img-text p{
     font-size: 20px;
@@ -216,8 +222,12 @@
     height: 24px;
     left: calc((100% + 5px))
 }
-.company-card:nth-child(2){
+.company-card{
+    transition: 0.5s;
+}
+.company-card:hover{
     box-shadow: 0px 0px 30px rgba(103, 92, 92, 0.25);
+    cursor: pointer;
 }
 /* Ozone Client */
 .ozone-client{
