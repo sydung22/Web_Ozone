@@ -212,3 +212,17 @@
         bottom:-70px;
     }
 }
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .about-icon-vector {
+      left: 90px;
+    }
+    .about-icon-vector img {
+      width: 27px;
+    }
+    .about-img-text {
+      padding: 43px 30px 30px 50px;
+    }
+    .about-img-text p {
+      font-size: 17px;
+    }
+  }
