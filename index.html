@@ -17,7 +17,8 @@
   </head>
   <body>
     <section class="ozone-header position-relative">
-      <div class="container-fluid d-flex justify-content-lg-between" style="background-image: url(./img/bg-logo.png);">
+      <div class="container-fluid" style="background-image: url(./img/bg-logo.png); background-size: cover;">
+        <div class="container d-md-flex justify-content-md-between contain-header">
         <div class="ozone-logo text-center">
           <img src="./img/logo-ozone.png" alt="" />
           <p>Materials Importer & Constructon</p>
@@ -46,7 +47,9 @@
             </div>
           </div>
         </div>
+        </div>
           <nav class="ozone-nav position-relative" style="z-index: 1;">
+            <!-- <div class="container contain-nav"> -->
             <ul class=" d-flex justify-content-center list-unstyled mb-0">
               <li><a href="/">TRANG CHỦ</a></li>
               <li><a href="/">DỊCH VỤ</a></li>
@@ -54,23 +57,26 @@
               <li><a href="/">CHỨNG NHẬN</a></li>
               <li><a href="/">LIÊN HỆ</a></li>
             </ul>
+          <!-- </div> -->
           </nav>
     </section>
     <section class="ozone-slider">
-      <div class="container-fluid px-0">
-        <div class="slider-img position-relative">
-          <img src="./img/slider-ozone.jpg" alt="" />
+      <div class="container-fluid position-relative px-0 contain-slider-fluid">
+        <div class="slider-img" >
+          <!-- <img src="./img/slider-ozone.jpg" alt="" class=" "/> -->
           <div class="polygon-icon position-absolute bottom-0 start-50 translate-middle-x">
             <img src="./img/polygon.png" alt="">
           </div>  
           <div class="arrow-down-icon position-absolute bottom-0 start-50 translate-middle-x">
-            <img src="./img/vector3.png" alt="">
+            <a href="/"><img src="./img/vector3.png" alt=""></a>
           </div> 
-        <div class="slider-des position-absolute">
+        <div class="container contain-slider">
+        <div class="slider-des d-md-flex justify-content-md-between">
+          <div class="slider-content" style="max-width: 738px;">
           <p class="text-des">
             THAY ĐỔI THÓI QUEN SỬ DỤNG VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG
           </p>
-          <p class="text-des">
+          <p class="text-des" style="max-width: 671px;">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             evver since the 1500s, when an unknown printer took a galley of type
@@ -83,30 +89,32 @@
             </div>  
           </div>      
         </div>
-        <div class="slider-icon position-absolute">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-          <i class="fa fa-instagram" aria-hidden="true"></i>
+        <div class="slider-icon">
+          <a href="/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
+      </div>
+      </div>
       </div>
       </div>
     </section>
     <section class="ozone-about">
-      <div class="container px-lg-5">
-        <div class="row">
-          <div class="col-12 col-lg-6  position-relative">
+      <div class="container">
+        <div class="row mx-0">
+          <div class="col-12 col-lg-6 px-0">
             <div class="about-img position-relative">
               <img src="./img/about-img.jpg" alt="" style="width:100%;"/>
               <div class="about-icon-vector position-absolute">
                 <img src="./img/vector.png" alt="" />
-                <img src="./img/vector.png" alt="" />
               </div>
               <div class="about-img-text position-absolute">
+
                 <p>VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG</p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-6 px-0">
             <div class="about-content">
               <p style="font-size:14px; color:#EE1F23; letter-spacing: 0.3em;">OZONE COMPANY</p>
               <h1 class="pb-3" style="font-weight: bold;">Về chúng tôi</h1>
@@ -138,8 +146,9 @@
     </section>
     <section class="ozone-service">
       <div class="container-fluid" style="background-image: url(./img/service-bg.jpg);background-size: cover; background-position: center;">
+        <div class="container">
         <div class="list-service">
-          <div class="row">
+          <div class="row mx-0">
             <div class="col-12 col-md-5 offset-md-1 col-service-1">
               <div class="icon-ser">
                 <div style="padding-left: 10px;"><img src="./img/icon-ser1.png" alt=""></div>
@@ -147,7 +156,7 @@
                 <div><img src="./img/1.png" alt=""></div>
               </div>
               <div class="ser-des pt-3">
-                <p style="padding-left:12px;color:#265BC5; font-size: 18px; font-weight: bold;">1. TƯ VẤN KHÁCH HÀNG</p>
+                <p>1. TƯ VẤN KHÁCH HÀNG</p>
                 <ul style="font-size: 14px;">
                   <li>Nhận thông tin từ khách hàng.</li>
                   <li>Tư vấn vật liệu, tư vấn nguồn cung cấp. </li>
@@ -161,7 +170,7 @@
                 <div><img src="./img/2.png" alt=""></div>
               </div>
               <div class="ser-des pt-3">
-                <p style="padding-left:12px;font-size: 18px; font-weight: bold;">2. TÌM KIẾM VẬT LIỆU</p>
+                <p style="color:#fff;">2. TÌM KIẾM VẬT LIỆU</p>
                 <ul style="font-size: 14px;">
                   <li>Tìm kiếm nhà cung cấp có sản phẩm phù hợp.</li>
                   <li>Kiểm tra sản phẩm theo các tiêu chí của khách hàng. </li>
@@ -169,7 +178,7 @@
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row mx-0">
             <div class="col-12 col-md-5 offset-md-1 col-service-3">
               <div class="icon-ser d-flex justify-content-md-between">
                 <div style="padding-left: 10px;"><img src="./img/icon-ser3.png" alt=""></div>
@@ -177,7 +186,7 @@
                 <div><img src="./img/3.png" alt=""></div>
               </div>
               <div class="ser-des pt-3">
-                <p style="padding-left:12px;color:#265BC5; font-size: 18px; font-weight: bold;">3. TRÌNH MẪU - GIẢI TRÌNH</p>
+                <p>3. TRÌNH MẪU - GIẢI TRÌNH</p>
                 <ul style="font-size: 14px;">
                   <li>Trình mẫu vật liệu theo yêu cầu của khách hàng.</li>
                   <li> Giải trình các thông số kỹ thuật, biện pháp lắp đặt.</li>
@@ -191,7 +200,7 @@
                 <div><img src="./img/4.png" alt=""></div>
               </div>
               <div class="ser-des pt-3">
-                <p style="padding-left:12px;color:#265BC5; font-size: 18px; font-weight: bold;">4. GIAO HÀNG - THANH TOÁN</p>
+                <p>4. GIAO HÀNG - THANH TOÁN</p>
                 <ul style="font-size: 14px;">
                   <li>Thống nhất hợp đồng cung ứng vật tư.</li>
                   <li>Thống nhất phương thức thanh toán và các điều khoản.</li>
@@ -202,21 +211,24 @@
           </div>
         </div>
       </div>
+      </div>
     </section>
     <section class="ozone-company py-sm-5">
-      <div class="container px-md-5">
+      <div class="container contain-company">
         <div class="company-title text-center">
           <p style="font-size:14px; color:#EE1F23;letter-spacing: 0.3em;">OZONE COMPANY</p>
           <h2 class="pb-3" style="font-weight: bold;">TIN TỨC</h2>
         </div>
-        <div class="row">
-          <div class="col-12 col-lg-4 px-lg-4">
+        <div class="row mx-0">
+          <div class="col-12 col-md-4 my-md-0 my-2">
             <div class="company-card">
             <img src="./img/company-1.jpg" alt="" style="max-width:100%">
-            <p class="ps-xl-4 pt-3" style="font-size:24px; font-weight: bold;">Can your business become better with new technology?</p>
-            <p class="ps-xl-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-            <div class="com-more d-flex justify-content-between px-xl-4 py-4" style="border-top: 1px solid #E0E0E0;">
+            <div class="card-content">
+              <p class="pt-3 card-title">Can your business become better with new technology?</p>
+              <p class="card-des">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+              </div>
+            <div class="com-more d-flex justify-content-between py-4" style="border-top: 1px solid #E0E0E0; font-size:14px">
               <div class="company-time"><p>20/08/2020</p></div>
               <!-- <div class="group" role="group" aria-label="Basic mixed styles example text-center">
                 <button type="button" class="btn px-1 pt-0"><img src="./img/icon-com1.png" alt=""></button>
@@ -230,13 +242,15 @@
             </div>
           </div>
           </div>
-          <div class="col-12 col-lg-4 px-lg-4">
+          <div class="col-12 col-md-4 my-md-0 my-2">
             <div class="company-card">
               <img src="./img/company-2.jpg" alt="" style="max-width:100%">
-              <p class="ps-xl-4 pt-3" style="font-size:24px; font-weight: bold;">Can your business become better with new technology?</p>
-              <p class="ps-xl-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              <div class="card-content">
+              <p class="pt-3 card-title">Can your business become better with new technology?</p>
+              <p class="card-des">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
               sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-              <div class="com-more d-flex justify-content-between px-xl-4 py-4" style="border-top: 1px solid #E0E0E0;">
+              </div>
+              <div class="com-more d-flex justify-content-between py-4" style="border-top: 1px solid #E0E0E0; font-size:14px">
                 <div class="company-time"><p>20/08/2020</p></div>
                 <!-- <div class="group" role="group" aria-label="Basic mixed styles example text-center">
                   <button type="button" class="btn px-1 pt-0"><img src="./img/icon-com1.png" alt=""></button>
@@ -250,24 +264,26 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4 px-lg-4">
+          <div class="col-12 col-md-4 my-md-0 my-2">
             <div class="company-card">
               <img src="./img/company-3.jpg" alt="" style="max-width:100%">
-              <p class="ps-xl-4 pt-3" style="font-size:24px; font-weight: bold;">Can your business become better with new technology?</p>
-              <p class="ps-xl-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-              <div class="com-more d-flex justify-content-between px-xl-4 py-4" style="border-top: 1px solid #E0E0E0;">
-                <div class="company-time"><p>20/08/2020</p></div>
-                <!-- <div class="group" role="group" aria-label="Basic mixed styles example text-center">
-                  <button type="button" class="btn px-1 pt-0"><img src="./img/icon-com1.png" alt=""></button>
-                  <a type="button" class="" style="text-decoration: none; color:#212529;">20/08/2020</a>
-                </div>  -->
-                <div class="company-viewmore"><p>Xem thêm</p></div>
-                <!-- <div class="group" role="group" aria-label="Basic mixed styles example text-center">
-                  <a type="button" class="" style="text-decoration: none; color:#212529;">Xem thêm</a>
-                  <button type="button" class="btn px-1"><i class="fa fa-arrow-right" aria-hidden="true" style="color: #EE1F23"></i></button>
-                </div>  -->
-              </div>
+              <div class="card-content">
+                <p class="pt-3 card-title">Can your business become better with new technology?</p>
+                <p class="card-des">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+                <div class="com-more d-flex justify-content-between py-4" style="border-top: 1px solid #E0E0E0; font-size:14px">
+                  <div class="company-time"><p>20/08/2020</p></div>
+                  <!-- <div class="group" role="group" aria-label="Basic mixed styles example text-center">
+                    <button type="button" class="btn px-1 pt-0"><img src="./img/icon-com1.png" alt=""></button>
+                    <a type="button" class="" style="text-decoration: none; color:#212529;">20/08/2020</a>
+                  </div>  -->
+                  <div class="company-viewmore"><p>Xem thêm</p></div>
+                  <!-- <div class="group" role="group" aria-label="Basic mixed styles example text-center">
+                    <a type="button" class="" style="text-decoration: none; color:#212529;">Xem thêm</a>
+                    <button type="button" class="btn px-1"><i class="fa fa-arrow-right" aria-hidden="true" style="color: #EE1F23"></i></button>
+                  </div>  -->
+                </div>
             </div>
           </div>
         </div>
@@ -284,10 +300,10 @@
         <div class="container">
           <div class="client-title text-center">
             <p style="font-size:14px; color:#EE1F23;letter-spacing: 0.3em;">OZONE COMPANY</p>
-            <h2 class="pb-3" style="font-weight: bold;">KHÁCH HÀNG</h2>
+            <h2 class="pb-md-5" style="font-weight: bold;">KHÁCH HÀNG</h2>
           </div>
-          <div class="row">
-            <div class="col-12 col-xl-3 offset-xl-1 ps-xl-5 col-img-client">
+          <div class="row mx-0 row-client">
+            <div class="col-12 col-md-4 col-img-client">
               <div class="client-img position-relative">
                 <img src="./img/img-client.jpg" alt=""/>
                 <div class="client-img-text position-absolute">
@@ -296,10 +312,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-xl-6 client-text-des ps-lg-5">
+            <div class="col-12 col-md-8 col-xl-7 client-text-content ps-lg-1 pe-lg-0">
               <div class="client-des d-flex">
                 <div class="client-icon-vector" style="height:57px">
-                  <img src="./img/vector2.png" alt="" />
                   <img src="./img/vector2.png" alt="" />
                 </div>
                 <div class="client-text-des">
@@ -327,25 +342,26 @@
         </div>
       </div>
     </section>
-    <section class="ozone-group py-5">
+    <section class="ozone-group py-md-5">
       <div class="container">
-        <div class="row pb-4 list-groupitem">
-          <div class="col-12 col-md-2 offset-lg-1"><img src="./img/client-group1.jpg" alt=""></div>
-          <div class="col-12 col-md-2"><img src="./img/client-group2.jpg" alt="" ></div>
-          <div class="col-12 col-md-2"><img src="./img/client-group3.jpg" alt="" ></div>
-          <div class="col-12 col-md-2"><img src="./img/client-group4.jpg" alt="" ></div>
+        <div class="row pb-4 list-groupitem mx-0">
+          <div class="col-12 col-md-2 me-xl-4 ms-xl-2"><img src="./img/client-group1.jpg" alt=""></div>
+          <div class="col-12 col-md-2 me-xl-4"><img src="./img/client-group2.jpg" alt="" ></div>
+          <div class="col-12 col-md-2 me-xl-4"><img src="./img/client-group3.jpg" alt="" ></div>
+          <div class="col-12 col-md-2 me-xl-4"><img src="./img/client-group4.jpg" alt="" ></div>
           <div class="col-12 col-md-2"><img src="./img/client-group5.jpg" alt="" ></div>
         </div>
       </div>
     </section>
     <section class="ozone-contact">
-      <div class="contain-contact container-fluid py-4">
-        <div class=" container d-md-flex justify-content-between" style="padding: 0 10px; color: #f8f8f8;">
-          <div class="col-12 col-lg-3 col-md-2 text-center" style="padding:50px 0;">
+      <div class="contain-contact-fluid container-fluid py-4">
+        <div class=" contain-contact container" style="color: #f8f8f8;">
+          <div class="row justify-content-between mx-0 ">
+          <div class="col-12 col-md-2 text-center text-md-start" style="padding:50px 0;">
             <p style="font-size:42px; font-weight:bold;">LIÊN HỆ</p>
           </div>
           <div class="col-12 col-lg-3 col-md-2 text-center" style="padding:20px 0;">
-            <div style="font-size: 30px; padding-bottom: 20px;">
+            <div style="font-size: 30px; padding-bottom: 20px;" class="text-center">
               <img src="./img/ic_pin.png" alt="">
             </div>
             <p class="" style="font-size:14px;font-weight:500;">No. 22, N7 street, Quarter 3, Cat Lai Ward, District 2, Ho Chi Minh City</p>
@@ -356,7 +372,7 @@
             </div>
             <p class="" style="font-size:14px;font-weight:500;">028 6652 3966</p>
           </div>
-          <div class="col-12 col-lg-2 col-md-4 text-center" style="padding:20px 0;">
+          <div class="col-12 col-lg-3 col-md-4 text-center" style="padding:20px 0;">
             <div style="font-size: 30px; padding-bottom: 20px;">
               <img src="./img/ic_email.png" alt="">
             </div>
@@ -368,21 +384,22 @@
             </div> 
             <p class="" style="font-size:14px;font-weight:500;">www.ozonejsc.vn</p>
             </div>
+            </div>
           </div>
         </div>
     </section>
     <section class="ozone-footer">
-      <div class="container-fluid py-md-5" style="background:#F3F3F6;">
+      <div class="container-fluid" style="background:#F3F3F6;">
         <div class="container pb-5">
-          <div class="row">
-            <div class="col-12 col-md-4">
+          <div class="row mx-0 justify-content-between row-about-foot">
+            <div class="col-12 col-md-4 col-about-foot px-0">
               <img src="./img/logo-ozone.png" alt="" style="width:169px; height:112px">
               <p class="pt-5"style="color: #303030;font-weight: bold; font-size:16px;">JOINT STOCK COMPANY</p>
               <p style="font-size:16px;">We always strive for growth and development as StylemixThemes.
                  We don't want to have a large team, we want to have a team that
                  works in unity. Our slogan is "Every day is the last day".</p>
             </div>
-            <div class="col-12 col-md-4 pt-md-5 px-md-5">
+            <div class="col-12 col-md-4 pt-md-5 col-nav-foot">
               <p class="footer-list-title">Danh mục</p>
               <ul class="footer-list-menu">
                 <li class="py-2"><a href="/" style="text-decoration: none; font-size: 14px; color:#505050;">TRANG CHỦ</a></li>
@@ -392,7 +409,7 @@
                 <li class="py-2"><a href="/" style="text-decoration: none; font-size: 14px;color:#505050;">LIÊN HỆ</a></li>
               </ul>
             </div>
-            <div class="col-12 col-md-3 pt-md-5 px-xxl-4 px-xl-0">
+            <div class="col-12 col-lg-3 col-md-4 pt-md-5 col-signup-foot">
               <h3 class="footer-signup-title pb-3" style="font-size:20px; color: #265BC5; font-weight: bold;">Đăng ký nhận tin</h3>
               <p class="mb-1" style=" font-size: 16px; color:#505050;">Nhập địa chỉ email của bạn để nhận thông tin ưu đãi mới nhất</p>
               <div class="input-group mb-3">
@@ -406,7 +423,7 @@
             </div>
           </div>
         </div>
-        <div class="footer-icon text-center pt-4" style="color:#265BC5;border-top: 1px solid #E0E0E0; font-size: 24px;">
+        <div class="footer-icon text-center" style="color:#265BC5;border-top: 1px solid #E0E0E0; font-size: 24px;">
           <i class="fa fa-twitter" aria-hidden="true"></i>
           <i class="fa fa-facebook" aria-hidden="true" style="padding: 0 64px;"></i>
           <i class="fa fa-instagram" aria-hidden="true"></i>

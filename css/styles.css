@@ -1,10 +1,20 @@
-
+body{
+    max-width:1920px;
+}
+.container-fluid{
+    padding: 0;
+}
+.container{
+    /* max-width: 1170px; */
+    padding:0;
+    /* margin: 0 374px; */
+}
 /* Ozone Header */
 .ozone-header{
     z-index: 1;
 }
 .ozone-logo{
-    margin: 10px 0 0 380px;
+    padding: 10px 0 1px;
 }
 .ozone-logo p{
     font-family: OpenSans;
@@ -15,7 +25,6 @@
 }
 .logo-info{
     /* padding: 0 375px 0 0; */
-    margin-right: 270px;
     display: flex;
     padding-top: 20px;
 }
@@ -24,8 +33,7 @@
     font-weight: 500;
     color:#2C4985;
 }
-.info-item-hotline, .info-item-email,
-.info-item-time{
+.info-item-hotline, .info-item-email{
     /* display:table; */
     margin-right: 100px;
 
@@ -83,8 +91,8 @@
     /* background-image: url(/Web_Ozone/img/slider-ozone.jpg); */
     border-bottom: 1px solid #E0E0E0;
 }
-.ozone-nav ul li{
-    padding: 28px 0 ;
+.ozone-nav ul li {
+    padding: 28px 0;
     margin: 0 10px 0 30px;
 }
 /* .ozone-nav ul li:first-child{
@@ -105,35 +113,45 @@
 }
 /* Onzone Slider */
 .slider-img{
-    margin-top:-132px;
+    margin-top:-141px;
 }
-.slider-des{
-    top:30%;
-    left:20%;
-    right: 40%;
+.slider-img > img{
+    min-height: 886px;
 }
 .slider-des .text-des{
     font-size:46px;
     color: #f8f8f8;
     font-weight: bold;
+    margin-bottom: 24px;
 }
 .slider-des .text-des:nth-child(2){
     font-size:16px;
     font-weight:unset;
 }
+.contain-slider-fluid{
+    background-image:url(../img/slider-ozone.jpg);
+    min-height:886px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.contain-slider{
+    padding-top: 260px;
+}
 .slider-icon{
+    padding-top: 225px;
     display:grid;
-    bottom:12%;
-    right:20%;
-    font-size: 29px;
+    font-size: 24px;
 }
 .slider-icon i{
-    padding-bottom: 50px;
     color: #f8f8f8;
 }
 .slider-img > img{
     max-width:100%;
     object-fit: cover;
+}
+.button-slider{
+    padding-top: 35px;
 }
 /* Ozone About */
 .ozone-about{
@@ -143,28 +161,32 @@
     padding: 0 50px;
 }
 .about-icon-vector{
-    bottom: 55px;
-    left: 198px;
+    bottom: 20px;
+    left: 192px;
     z-index: 1;
-}
-.about-icon-vector img{
-    padding-left: 4px;
 }
 .about-img-text{
     background:#265BC5;
     color: #f8f8f8;
     max-width: 327px;
-    padding: 43px 0 30px 73px;
-    bottom: -35px;
-    right: 63px;
+    padding: 43px 18px 33px 68px ;
+    bottom: -30px;
+    right: 30px;
 }
 .about-img-text p{
     font-size: 20px;
     font-weight: bold;
+    line-height: 1.4;
+}
+.row-about-foot{
+    padding: 42px 0;
+}
+.button-about{
+    padding-top: 33px;
 }
 /* Ozone Service */
 .list-service{
-    padding:120px 320px;
+    padding:120px 0px;
 }
 .icon-ser{
     display:flex;
@@ -184,6 +206,12 @@
 .col-service-2,.col-service-3,
 .col-service-4{
     padding: 48px 28px 46px 52px;
+}
+.ser-des p{
+    padding-left:12px;
+    color:#265BC5;
+    font-size: 18px;
+    font-weight: bold;
 }
 /* Ozone Company */
 .company-time{
@@ -229,6 +257,16 @@
     box-shadow: 0px 0px 30px rgba(103, 92, 92, 0.25);
     cursor: pointer;
 }
+.card-content, .com-more{
+    padding: 0 27px;
+}
+.card-title{
+    font-size:22px;
+    font-weight: bold;
+}
+.card-des{
+    font-size: 14px;
+}
 /* Ozone Client */
 .ozone-client{
     padding-bottom: 143px;
@@ -238,11 +276,11 @@
     color: #f8f8f8;
     max-width: 205px;
     padding: 8px 28px 13px 15px;
-    bottom: -10%;
-    right: 5%;
+    bottom: -20px;
+    right: 20px;
 }
-.client-img img{
-    max-width: 100%;
+.client-img img, .client-img{
+    width: 302px;
 }
 .client-img-text .client-text-name{
     font-size: 16px;
@@ -253,14 +291,12 @@
     font-size: 12px;
     margin: 0;
 }
-.client-des img{
-    padding-left: 5px;
-}
 .client-text-des{
-    padding: 10px 0 0 20px;
+    padding-right: 70px;
 }
 .client-ellip{
-    padding-left: 84px;
+    padding-left: 75px;
+    padding-top: 50px;
     align-items: center;
 }
 .ellip-borde img{
@@ -274,14 +310,11 @@
     top: 9px;
     left: 3px;
 }
-.client-text-des{
-    padding: 0 35px 0 16px;
-}
 .client-title{
     padding: 123px 0 0;
 }
-.client-icon-vector{
-    display: flex;
+.row-client{
+    padding-left: 73px;
 }
 /* Ozone Group */
 .list-groupitem{
@@ -298,7 +331,7 @@
     background-size:cover;
     background-position: bottom;
 }
-.contain-contact{
+.contain-contact-fluid{
     background-color: #265BC5;
     opacity: 0.9;
 }
@@ -319,4 +352,16 @@
     color: #265BC5;
     font-weight: bold; 
     margin-left: 12px;
+}
+.footer-icon{
+    padding: 20px 0;
+}
+.col-about-foot{
+    padding-right: 20px;
+}
+.col-signup-foot{
+    padding-left: 45px;
+}
+.col-nav-foot{
+    padding-left: 80px;
 }
