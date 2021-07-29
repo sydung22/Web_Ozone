@@ -26,6 +26,9 @@
   .client-ellip{
     padding-left: 93px;
   }
+  .contain-company, .contain-client{
+    padding: 100px 0;
+  }
 }
 
 
@@ -47,6 +50,9 @@
   }
   .client-ellip{
     padding-left:150px;
+  }
+  .contain-company, .contain-client{
+    padding: 50px 0;
   }
   /* .client-img-text{
     right: 10px;
@@ -89,6 +95,9 @@
   } 
   .client-icon-vector img{
     width: 40px;
+  }
+  .ozone-about{
+    padding:50px 0;
   }
 }
 @media (max-width: 767px) {
