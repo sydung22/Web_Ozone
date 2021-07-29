@@ -268,9 +268,6 @@ body{
     font-size: 14px;
 }
 /* Ozone Client */
-.ozone-client{
-    padding-bottom: 143px;
-}
 .client-img-text{
     background:#265BC5;
     color: #f8f8f8;
@@ -310,8 +307,8 @@ body{
     top: 9px;
     left: 3px;
 }
-.client-title{
-    padding: 123px 0 0;
+.contain-company, .contain-client{
+    padding: 123px 0 110px;
 }
 .row-client{
     padding-left: 73px;
@@ -323,6 +320,9 @@ body{
 .list-groupitem img{
     width: 203px;
     height:73px;
+}
+.contain-group{
+    padding: 0 0 27px;
 }
 /* Ozone Contact */
 .ozone-contact{
