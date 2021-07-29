@@ -108,7 +108,7 @@
     font-size:22px;
   }
   .slider-icon{
-    padding-top: 30px;
+    padding-top: 50px;
     display:flex;
     justify-content: space-evenly;
   }
@@ -176,10 +176,11 @@
     margin:0;
   }
   .about-icon-vector img{
-    width: 70px;
+    width: 40px;
   }
   .about-icon-vector{
-    left:30%;
+    left:30px;
+    bottom: 20px;
     display:none;
   }
   .contain-slider{
