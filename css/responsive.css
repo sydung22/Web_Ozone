@@ -178,7 +178,7 @@
 
   .about-img-text{
     /* bottom:-10px; */
-    /* right: 0; */
+    right: 20px;
     padding:30px 10px 30px 60px;
   }
   .about-img-text p{
@@ -189,7 +189,7 @@
     width: 60px;
   }
   .about-icon-vector{
-    right: 292px;
+    right: 284px;
     bottom: 10px;
     /* display:none; */
   }
@@ -211,7 +211,7 @@
     font-size:32px;
   }
   .about-icon-vector{
-    left: 1vw;
+    left: 2vw;
     bottom: 3vw;
     /* display:none; */
   }
