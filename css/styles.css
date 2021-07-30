@@ -98,11 +98,28 @@ body{
 /* .ozone-nav ul li:first-child{
     border-bottom: 2px solid #E0E0E0;
 } */
-.ozone-nav ul li:hover{
+/* .ozone-nav ul li:hover{
     border-bottom: 2px solid #E0E0E0;
+} */
+.ozone-nav ul li::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #FFFF;
+    color: #FFFF;
+    transform: scale(0);
+    transition: 0.5s linear;
+}
+.ozone-nav ul li:hover::before {
+    color: #FFFF;
+    transform: scale(1);
 }
 .ozone-nav ul li{
     border-bottom: 2px solid transparent;
+    position: relative;
 }
 .ozone-nav ul li a{
     text-decoration: none;
@@ -182,7 +199,23 @@ body{
     padding: 42px 0;
 }
 .button-about{
-    padding-top: 33px;
+    padding-top: 52px;
+}
+.about-text-head{
+    font-size:14px;
+    color:#EE1F23;
+    letter-spacing: 0.3em;
+    margin:0;
+    padding-bottom: 14px;
+}
+.about-text-title{
+    font-weight: bold;
+    font-size: 42px;
+    padding-bottom: 30px;
+    margin:0;
+}
+.about-img > img {
+    width: 601px;
 }
 /* Ozone Service */
 .list-service{

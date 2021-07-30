@@ -85,6 +85,9 @@
 .client-text-des{
   text-align:justify;
 }
+.about-img > img{
+  width: 100%;
+}
 }
 @media (max-width:991px){
   .row-client{
@@ -110,8 +113,14 @@
   .info-item-hotline, .info-item-email{
     margin-right: 50px;
   }
-  .ozone-nav, .logo-info{
+  /* .ozone-nav, .logo-info{
     display:none;
+  } */
+  .ozone-nav ul li{
+    margin: 0;
+  }
+  .logo-info{
+    justify-content: center;
   }
   .card-title{
     font-size:22px;
@@ -195,6 +204,9 @@
   }
   .contain-slider{
     padding-top: 200px;
+  }
+  .ozone-nav, .logo-info{
+    display:none;
   }
 }
 @media (max-width: 375px){
