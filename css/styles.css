@@ -215,7 +215,7 @@ body{
     margin:0;
     line-height: 1;
 }
-.about-img > img {
+.about-image-person img {
     width: 601px;
 }
 /* Ozone Service */
@@ -285,11 +285,12 @@ body{
     left: calc((100% + 5px))
 }
 .company-card{
-    transition: 0.5s;
+    transition: 0.6s;
 }
 .company-card:hover{
     box-shadow: 0px 0px 30px rgba(103, 92, 92, 0.25);
     cursor: pointer;
+    transform:scale(1.02);
 }
 .card-content, .com-more{
     padding: 0 27px;
@@ -313,8 +314,20 @@ body{
     bottom: -20px;
     right: 20px;
 }
-.client-img img, .client-img{
+.client-image-person img, .client-img{
     width: 302px;
+}
+.client-image-person{
+    overflow: hidden;
+}
+.client-image-person img{
+    transition: 0.7s
+}
+.client-image-person img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.9;
+
 }
 .client-img-text .client-text-name{
     font-size: 16px;
@@ -425,6 +438,8 @@ body{
     padding: 14px 51px;
     font-size: 16px;
     line-height:1.2;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.4s;
 }
 .group-button {
     margin-top: 20px;
@@ -437,4 +452,44 @@ body{
     padding: 12px 16px;
     font-size: 16px;
 
+}
+.group-button a:hover{
+    box-shadow: inset 200px 0 0 0 #f9e506;
+    color: #000;
+    cursor: pointer;
+}
+.about-image-person{
+    overflow: hidden;
+}
+.about-image-person img{
+    transition:0.7s;
+}
+.about-image-person img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* Slick Slider */
+.slick-dots{
+    text-align:unset;
+    padding-left: 65px;
+    bottom:-40px;
+}
+.slick-dots li{
+    margin:0;
+}
+.slick-dots li button:before{
+    width: 16px;
+    height: 16px;
+    line-height: 16.8px;
+}
+.slick-dots li.slick-active button:before{
+    opacity: 1;
+    color: #EE1F23;
+    border: 0.5px solid #265BC5;
+    border-radius: 50%;
+    font-size: 10px;
+}
+.slick-prev, .slick-next{
+    display: none;
 }

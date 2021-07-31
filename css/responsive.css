@@ -39,6 +39,9 @@
   .button-about{
     padding-top: 5px;
   }
+  .slick-dots{
+    padding-left: 90px;
+  }
 }
 
 
@@ -82,6 +85,10 @@
   .ser-des p{
     font-size:16px;
   }
+
+  .slick-dots{
+    padding-left: 118px;
+  }
 }
 /* @media (min-width: 375px){
   .container{
@@ -95,7 +102,7 @@
 .client-text-des{
   text-align:justify;
 }
-.about-img > img{
+.about-image-person img{
   width: 100%;
 }
 }
@@ -143,7 +150,7 @@
   .slider-des .text-des{
     font-size:36px;
   }
-  .client-img img, .client-img{
+  .client-image-person img, .client-img{
     width:100%;
   }
   .client-text-des{
@@ -191,6 +198,11 @@
   }
   .slider-des{
     padding: 0 10px;
+  }
+
+  .slick-dots{
+    padding-left: 0;
+    text-align: center;
   }
 }
 @media (max-width: 575px){
