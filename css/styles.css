@@ -490,6 +490,3 @@ body{
     border-radius: 50%;
     font-size: 10px;
 }
-.slick-prev, .slick-next{
-    display: none;
-}
