@@ -411,7 +411,8 @@ body{
 .col-nav-foot{
     padding-left: 80px;
 }
-.input-group div{
+.input-group a{
+    text-decoration:none;
     background-color:#EE1F23;
     color:#fff;
     font-size:20px;
