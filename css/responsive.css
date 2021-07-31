@@ -116,7 +116,7 @@
   .client-icon-vector img{
     width: 40px;
   }
-  .ozone-about{
+  #ozone-about{
     padding:50px 0;
   }
 }
@@ -163,10 +163,10 @@
   .col-nav-foot,.col-signup-foot{
     padding:0;
   }
-  .ozone-about,.list-service{
+  #ozone-about,.list-service{
     padding: 20px 10px;
   }
-  .ozone-client{
+  #ozone-client{
     padding-bottom: 10px;
   }
   .client-des{

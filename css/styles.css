@@ -171,7 +171,7 @@ body{
     padding-top: 35px;
 }
 /* Ozone About */
-.ozone-about{
+#ozone-about{
     padding:110px 0;
 }
 .about-content{
@@ -374,7 +374,7 @@ body{
     padding: 0 0 27px;
 }
 /* Ozone Contact */
-.ozone-contact{
+#ozone-contact{
     /* background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/service-bg.jpg); */
     background-image:url(../img/service-bg.jpg) ;
     background-size:cover;
