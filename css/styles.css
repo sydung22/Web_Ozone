@@ -199,7 +199,7 @@ body{
     padding: 42px 0;
 }
 .button-about{
-    padding-top: 52px;
+    padding-top: 50px;
 }
 .about-text-head{
     font-size:14px;
@@ -213,6 +213,7 @@ body{
     font-size: 42px;
     padding-bottom: 30px;
     margin:0;
+    line-height: 1;
 }
 .about-img > img {
     width: 601px;
@@ -299,6 +300,9 @@ body{
 }
 .card-des{
     font-size: 14px;
+}
+.button-company .group-button{
+    margin:auto;
 }
 /* Ozone Client */
 .client-img-text{
@@ -394,4 +398,40 @@ body{
 }
 .col-nav-foot{
     padding-left: 80px;
+}
+.input-group div{
+    background-color:#EE1F23;
+    color:#fff;
+    font-size:20px;
+    padding: 14px 18px;
+    line-height:1;
+}
+.input-group .form-control{
+    border-radius: unset;
+}
+
+
+
+
+
+
+.group-button a{
+    text-decoration:none;
+    background-color:#EE1F23;
+    color:#fff;
+    padding: 14px 51px;
+    font-size: 16px;
+    line-height:1.2;
+}
+.group-button {
+    margin-top: 20px;
+    width: 227px;
+    height: 48px;
+    display: flex;
+}
+.group-button div{
+    background-color: #f8f8f8;
+    padding: 12px 16px;
+    font-size: 16px;
+
 }

@@ -29,6 +29,16 @@
   .contain-company, .contain-client{
     padding: 100px 0;
   }
+  .about-text-title{
+    font-size:30px;
+    padding-bottom: 10px;
+  }
+  .about-text-head{
+    padding-bottom: 5px;
+  }
+  .button-about{
+    padding-top: 5px;
+  }
 }
 
 
