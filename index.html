@@ -11,14 +11,16 @@
     <!-- <link rel="stylesheet" href="./css/reset.css"> -->
     <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="shortcut icon" type="image/png" href="./img/favicon-ozone.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Ozone Materials Importer & Constructon</title>
   </head>
   <body>
     <section class="ozone-header position-relative">
       <div class="container-fluid" style="background-image: url(./img/bg-logo.png); background-size: cover;">
-        <div class="container d-md-flex justify-content-md-between contain-header">
-        <div class="ozone-logo text-center">
+        <div class="container d-md-flex justify-content-md-between contain-header animate__animated animate__fadeInDown animate__delay-1s">
+        <div class="ozone-logo text-sm-center">
           <a href="#"><img src="./img/logo-ozone.png" alt="" /></a>
           <p>Materials Importer & Constructon</p>
           </div>
@@ -47,7 +49,7 @@
           </div>
         </div>
         </div>
-          <nav class="ozone-nav position-relative" style="z-index: 1;">
+          <nav class="ozone-nav position-relative animate__animated animate__fadeInUp animate__delay-1s" style="z-index: 1;">
             <!-- <div class="container contain-nav"> -->
             <ul class=" d-flex justify-content-center list-unstyled mb-0">
               <li><a href="/">TRANG CHỦ</a></li>
@@ -71,7 +73,7 @@
           </div> 
         <div class="container contain-slider">
         <div class="slider-des d-md-flex justify-content-md-between">
-          <div class="slider-content" style="max-width: 738px;">
+          <div class="slider-content animate__animated animate__fadeInLeft animate__delay-1s" style="max-width: 738px;">
           <p class="text-des">
             THAY ĐỔI THÓI QUEN SỬ DỤNG VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG
           </p>
@@ -92,7 +94,7 @@
             </div>
           </div>      
         </div>
-        <div class="slider-icon">
+        <div class="slider-icon animate__animated animate__fadeInRight animate__delay-1s">
           <a href="/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           <a href="/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a href="/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -102,7 +104,7 @@
       </div>
       </div>
     </section>
-    <section class="ozone-about">
+    <section class="ozone-about" data-aos="fade-right">
       <div class="container">
         <div class="row mx-0">
           <div class="col-12 col-lg-6 px-0">
@@ -157,7 +159,7 @@
       <div class="container-fluid" style="background-image: url(./img/service-bg.jpg);background-size: cover; background-position: center;">
         <div class="container">
         <div class="list-service">
-          <div class="row mx-0">
+          <div class="row mx-0" data-aos="fade-left">
             <div class="col-12 col-md-5 offset-md-1 col-service-1">
               <div class="icon-ser">
                 <div style="padding-left: 10px;"><img src="./img/icon-ser1.png" alt=""></div>
@@ -187,7 +189,7 @@
               </div>
             </div>
           </div>
-          <div class="row mx-0">
+          <div class="row mx-0" data-aos="fade-right">
             <div class="col-12 col-md-5 offset-md-1 col-service-3">
               <div class="icon-ser d-flex justify-content-md-between">
                 <div style="padding-left: 10px;"><img src="./img/icon-ser3.png" alt=""></div>
@@ -222,7 +224,7 @@
       </div>
       </div>
     </section>
-    <section class="ozone-company">
+    <section class="ozone-company" data-aos="zoom-in">
       <div class="container contain-company">
         <div class="company-title text-center">
           <p style="font-size:14px; color:#EE1F23;letter-spacing: 0.3em;">OZONE COMPANY</p>
@@ -310,7 +312,7 @@
     </section>
     <section class="ozone-client">
       <div class="container-fluid" style="background-image: url(./img/bg-client.jpg); background-size: cover; background-position: center;">
-        <div class="container contain-client">
+        <div class="container contain-client" data-aos="fade-up-left">
           <div class="client-title text-center">
             <p style="font-size:14px; color:#EE1F23;letter-spacing: 0.3em;">OZONE COMPANY</p>
             <h2 class="pb-md-5" style="font-weight: bold;">KHÁCH HÀNG</h2>
@@ -452,7 +454,7 @@
     </section>
     <section class="ozone-footer">
       <div class="container-fluid" style="background:#F3F3F6;">
-        <div class="container pb-5">
+        <div class="container pb-5"  data-aos="fade-up">
           <div class="row mx-0 justify-content-between row-about-foot">
             <div class="col-12 col-md-4 col-about-foot px-0">
               <img src="./img/logo-ozone.png" alt="" style="width:169px; height:112px">
@@ -501,5 +503,12 @@
     <script src="https://kit.fontawesome.com/8d1715f80f.js"crossorigin="anonymous"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:400,
+        duration:1000
+      });
+    </script>
   </body>
 </html>
