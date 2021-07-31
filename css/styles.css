@@ -481,7 +481,7 @@ body{
 .slick-dots li button:before{
     width: 16px;
     height: 16px;
-    line-height: 16.8px;
+    line-height: 16px;
 }
 .slick-dots li.slick-active button:before{
     opacity: 1;
