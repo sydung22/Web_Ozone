@@ -49,6 +49,9 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .contain-header{
+    align-items: center;
+  }
   .slider-des .text-des{
     font-size:38px
   }
@@ -79,10 +82,10 @@
   .info-item-hotline, .info-item-email{
     margin-right: 50px;
   }
-  .col-service-1{
+  .col-service:first-child{
     padding: 30px 30px 20px 20px;
   }
-  .col-service-2, .col-service-3, .col-service-4{
+  .col-service{
     padding: 30px 10px 20px 20px;
   }
   .com-more{
@@ -134,7 +137,7 @@
     padding-left: 0;
 }
   .about-content{
-    padding: 40px 0;
+    padding: 40px 0 20px;
   } 
   .client-icon-vector img{
     width: 40px;
@@ -148,7 +151,9 @@
   /* .header-top{
     background-position: unset;
   } */
-
+  .button-about{
+    padding: 5px 0;
+  }
   .contain-slider{
     padding-top: 180px;
   }
@@ -206,10 +211,10 @@
   .contain-company, .contain-client{
     padding: 10px 0;
   }
-  .col-service-1{
+  .col-service:first-child{
     padding: 48px 40px 46px 20px;
   }
-  .col-service-2, .col-service-3, .col-service-4{
+  .col-service{
     padding: 48px 20px 46px;
   }
   .card-content, .com-more{
@@ -231,8 +236,15 @@
   }
 }
 @media (max-width: 575px){
-
-
+  .button-slider {
+    padding-top: 10px;
+  }
+  .slider-icon {
+    padding-top: 50px;
+  }
+  .slider-des .text-des {
+    font-size: 32px;
+}
   .slider-img {
     margin-top: -10px;
 }
@@ -253,10 +265,13 @@
     bottom: 10px;
   }
   .contain-slider{
-    padding-top: 100px;
+    padding-top: 50px;
   }
   .ozone-nav, .logo-info{
     display:none;
+  }
+  .contain-slider-fluid{
+    padding-bottom: 80px;
   }
 }
 @media (max-width: 375px){

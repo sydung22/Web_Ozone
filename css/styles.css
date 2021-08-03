@@ -213,6 +213,9 @@
     display:grid;
     font-size: 24px;
 }
+.slider-icon i:hover{
+    color: #265BC5;
+}
 .slider-icon i{
     color: #f8f8f8;
 }
@@ -279,20 +282,30 @@
     display:flex;
     justify-content:space-between;
 }
-.col-service-1,.col-service-3,
-.col-service-4{
+.col-service{
     background:#f8f8f8;
 }
-.col-service-1{
+.col-service:first-child{
     padding: 48px 48px 46px 52px;
 }
-.col-service-2{
-    background:#265BC5;
-    color: #f8f8f8;
-}
-.col-service-2,.col-service-3,
-.col-service-4{
+.col-service{
     padding: 48px 28px 46px 52px;
+}
+.col-service:hover{
+    background-color: #265BC5;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.7s;
+
+}
+.col-service:hover .icon-first {
+    filter: grayscale(100%) brightness(110%) contrast(3) invert(100%);
+}
+.col-service:hover .icon-second {
+    background:#265BC5;
+}
+.col-service:hover .ser-des p{
+    color: #fff;
 }
 .ser-des p{
     padding-left:12px;
