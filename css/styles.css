@@ -13,7 +13,6 @@
     padding: 14px 51px;
     font-size: 16px;
     line-height:1.2;
-    box-shadow: inset 0 0 0 0 #000;
     transition: ease-out 0.5s;
 }
 .group-button {
@@ -29,7 +28,7 @@
 
 }
 .group-button a:hover{
-    box-shadow: inset 200px 0 0 0 #000;
+    background:#000;
     color: #fff;
     cursor: pointer;
 }
@@ -61,7 +60,7 @@
     width: 250%;
     height: 400px;
     background:#fff;
-    left:-31px;
+    left:-25px;
     bottom: 0;
     position: absolute;
     transform: skewX(-55deg);
@@ -90,6 +89,17 @@
     /* display:table; */
     margin-right: 100px;
 
+}
+.info-item-email p:first-child,
+.info-item-hotline p:first-child,
+.info-item-time p:first-child{
+    font-weight: 500;
+}
+.info-item-email p:last-child,
+.info-item-hotline p:last-child,
+.info-item-time p:last-child{
+    color:#EE1F23;
+    font-weight:bold;
 }
 .logo-info .info-item-hotline::before{
     position: absolute;
@@ -144,8 +154,14 @@
     /* background-image: url(/Web_Ozone/img/slider-ozone.jpg); */
     border-bottom: 1px solid #E0E0E0;
 }
+.ozone-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
 .ozone-nav ul li {
-    padding: 28px 0;
+    padding: 25px 0;
     margin: 0 10px 0 30px;
 }
 /* .ozone-nav ul li:first-child{
@@ -183,7 +199,7 @@
 }
 /* Onzone Slider */
 .slider-img{
-    margin-top:-135px;
+    margin-top:-125px;
 }
 .slider-img > img{
     min-height: 886px;
@@ -218,6 +234,7 @@
 }
 .slider-icon i{
     color: #f8f8f8;
+    transition: 0.3s;
 }
 .slider-img > img{
     max-width:100%;
@@ -457,6 +474,16 @@
     background-color: #265BC5;
     opacity: 0.9;
 }
+.col-item-contact div{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.col-item-contact:first-child{
+    padding: 50px 0;
+}
+.col-item-contact{
+    padding:20px 0;
+}
 /* Ozone Footer */
 .footer-list-menu li::marker{
     color: #EE1F23;
@@ -518,4 +545,15 @@
     border: 0.5px solid #265BC5;
     border-radius: 50%;
     font-size: 10px;
+}
+/* Menu Bar */
+.btn-bar{
+    position: absolute;
+    z-index: 2;
+    font-size:30px;
+    right:0;
+    padding-right: 20px;
+    line-height:80px;
+    display: none;
+    color: #265BC5;
 }

@@ -49,6 +49,9 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .client-image-person img, .client-img{
+    max-width:100%;
+  }
   .contain-header{
     align-items: center;
   }
@@ -68,7 +71,7 @@
     font-size:20px;
   }
   .client-des{
-    padding-left: 80px;
+    padding-left: 0px;
   }
   .client-text-des{
     padding-right: 0;
@@ -118,6 +121,9 @@
 }
 @media (max-width:991px){
 
+  .col-item-contact:first-child{
+    padding: 20px 0;
+  }
 
   .slider-img {
     margin-top: -90px;
@@ -236,6 +242,24 @@
   }
 }
 @media (max-width: 575px){
+
+.btn-bar{
+  display: block;
+}
+.ozone-nav ul{
+  position:fixed;
+  width: 100%;
+  height:100vh;
+  background:#265BC5;
+  top: 0;
+  left: -100%;
+  text-align: center;
+  display:block;
+  transition: all 0.5s linear;
+}
+.ozone-nav ul.show{
+  left: 0;
+}
   .button-slider {
     padding-top: 10px;
   }
@@ -246,7 +270,7 @@
     font-size: 32px;
 }
   .slider-img {
-    margin-top: -10px;
+    margin-top: 0px;
 }
 
   .about-img-text{
@@ -267,9 +291,25 @@
   .contain-slider{
     padding-top: 50px;
   }
-  .ozone-nav, .logo-info{
+
+
+  
+  .logo-info{
     display:none;
   }
+  /* .logo-info{
+    display:block;
+    padding-top: 0;
+  } */
+  .info-item-email, .info-item-hotline,
+  .info-item-time{
+    display:table;
+    margin: auto;
+    text-align:center;
+  }
+
+
+
   .contain-slider-fluid{
     padding-bottom: 80px;
   }

@@ -8,5 +8,9 @@ $('.slider').slick({
    arrows: false
 });
 
+  $('.btn-bar').click(function(){
+    $('.ozone-nav ul').toggleClass('show');
+  })
+  
 });
 
