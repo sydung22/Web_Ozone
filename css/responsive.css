@@ -242,7 +242,15 @@
   }
 }
 @media (max-width: 575px){
-
+  .contain-group {
+    padding: 0;
+  }
+  .about-content{
+    padding: 40px 0 10px;
+  }
+  .about-text-title{
+    padding-bottom: 20px;
+  }
 .btn-bar{
   display: block;
 }
@@ -261,7 +269,7 @@
   left: 0;
 }
   .button-slider {
-    padding-top: 10px;
+    padding-top: 0px;
   }
   .slider-icon {
     padding-top: 50px;
@@ -293,7 +301,7 @@
   }
 
 
-  
+
   .logo-info{
     display:none;
   }
