@@ -255,9 +255,11 @@
   .client-text-des{
     padding: 0;
   }
+  .list-groupitem .col-6{
+    text-align:center;
+  }
   .list-groupitem img{
-    width: 100%;
-    height:auto
+    max-width: 100%;
   }
   .col-nav-foot,.col-signup-foot{
     padding:0;
@@ -365,16 +367,26 @@
   }
   /*  */
   .col-item-contact, .col-item-contact:first-child{
-    padding:0 40px;
+    padding:0 10px;
+    display:flex;
+    align-items: center;
+  }
+  .col-item-contact:first-child{
+    justify-content:center;
   }
   .col-item-contact:first-child p{
-    font-size: 30px;
+    font-size: 25px;
   }
   .contain-contact{
     padding: 25px 0 20px;
   }
+  .col-item-contact p{
+    margin:0;
+    padding-left: 10px;
+    text-align: left;
+  }
   .col-item-contact img{
-    width: 40px;
+    width: 35px;
   }
   .col-item-contact div{
     padding-bottom: 10px;
