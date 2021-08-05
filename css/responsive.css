@@ -32,10 +32,7 @@
   .contain-company, .contain-client{
     padding: 100px 0;
   }
-  .about-text-title{
-    font-size:30px;
-    padding-bottom: 10px;
-  }
+
   .about-text-head{
     padding-bottom: 5px;
   }
@@ -49,6 +46,25 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .icon-ser div:last-child img{
+    width: 60px;
+    height: 90px;
+  }
+  .contain-group{
+    padding: 0 0 10px;
+  }
+  .list-groupitem{
+    justify-content:space-evenly;
+  }
+  .list-groupitem img{
+    width: 100%;
+  }
+  .col-item-contact{
+    padding: 20px 0 10px;
+  }
+  .col-item-contact:first-child p{
+    font-size:36px;
+  }
   .client-image-person img, .client-img{
     max-width:100%;
   }
@@ -56,10 +72,10 @@
     align-items: center;
   }
   .slider-des .text-des{
-    font-size:38px
+    font-size:35px
   }
   .contain-slider{
-    padding-top:200px
+    padding-top:140px
   }
   /* .header-top{
     background-position: 30% center;
@@ -86,7 +102,7 @@
     margin-right: 50px;
   }
   .col-service:first-child{
-    padding: 30px 30px 20px 20px;
+    padding: 30px 20px 20px 20px;
   }
   .col-service{
     padding: 30px 10px 20px 20px;
@@ -120,9 +136,18 @@
 }
 }
 @media (max-width:991px){
-
+  .col-about-foot img{
+    width: 140px;
+  }
+  .col-item-contact img{
+    width: 50px;
+  }
+  .about-text-title{
+    font-size:32px;
+    padding-bottom: 15px;
+  }
   .col-item-contact:first-child{
-    padding: 20px 0 10px;
+    padding: 20px 0 0;
   }
 
   .slider-img {
@@ -135,7 +160,7 @@
 
   .contain-slider-fluid{
     min-height:unset;
-    padding-bottom: 130px;
+    padding-bottom: 100px;
   }
 
 
@@ -151,9 +176,20 @@
   #ozone-about{
     padding:50px 0;
   }
+  .button-about{
+    padding-top: 10px;
+  }
+  .group-button{
+    margin-top:0;
+  }
 }
 @media (max-width: 767px) {
-
+  .col-service:nth-child(3){
+    border-bottom: 1px solid #265BC5;
+  }
+  .contain-slider-fluid{
+    padding-bottom: 70px;
+  }
   /* .header-top{
     background-position: unset;
   } */
@@ -178,10 +214,6 @@
   .group-button{
     margin-top: 10px;
   }
-  .about-text-title{
-    font-size:32px;
-    padding-bottom: 20px;
-  }
   .map-img iframe{
     height: 190px;
   }
@@ -189,7 +221,7 @@
     padding: 5px 0;
   }
   .contain-slider{
-    padding-top: 180px;
+    padding-top: 140px;
   }
   .client-ellip{
     padding-left: 38px;
@@ -206,13 +238,16 @@
   .card-title{
     font-size:22px;
   }
+  .button-slider{
+    padding-top: 10px;
+  }
   .slider-icon{
-    padding-top: 80px;
+    padding-top: 40px;
     display:flex;
     justify-content: space-evenly;
   }
   .slider-des .text-des {
-    font-size: 34px;
+    font-size: 32px;
 }
   .client-image-person img, .client-img{
     width:100%;
@@ -267,7 +302,9 @@
   .slider-des{
     padding: 0 10px;
   }
-
+  .text-about-title{
+    padding-top: 10px;
+  }
   .slick-dots{
     padding: 0;
     text-align: center;
@@ -351,7 +388,7 @@
     width: 100px;
   }
   .col-about-foot p{
-    margin: 10px 0;
+    margin: 0 0 10px;
     font-size:15px;
   }
   .footer-list-menu{
@@ -384,15 +421,19 @@
   display: block;
 }
   .button-slider {
-    padding-top: 0px;
+    padding-top: 5px;
   }
   .slider-icon {
-    padding-top: 50px;
+    padding-top: 40px;
   }
   .slider-des .text-des {
     font-size: 25px;
-}
-
+  }
+  .group-button a{
+    padding: 14px 45px;
+    font-size: 15px;
+    line-height: 1.4;
+  }
   .about-img-text{
     right: 20px;
     padding:30px 10px 30px 60px;
@@ -409,7 +450,7 @@
     bottom: 10px;
   }
   .contain-slider{
-    padding-top: 40px;
+    padding-top: 45px;
   }
   .logo-info{
     display:none;
