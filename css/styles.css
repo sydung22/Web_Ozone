@@ -698,14 +698,13 @@
 .btn-bar.open .menu-btn_burger{
     transform: translateX(-50%);
     background:transparent;
-    right: 30px;
 }
 .btn-bar.open .menu-btn_burger::before{
-    transform: rotate(45deg) translate(35px, -35px);
+    transform: rotate(45deg) translate(15px, -15px);
     background:#EE1F23;
 }
 .btn-bar.open .menu-btn_burger::after{
-    transform: rotate(-45deg) translate(35px, 35px);
+    transform: rotate(-45deg) translate(15px, 15px);
     background:#EE1F23;
 }
 
