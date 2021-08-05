@@ -86,18 +86,20 @@
     font-weight: 500;
     color:#2C4985;
 }
-.info-item-hotline, .info-item-email,.info-item-time{
-    display:table;
-    text-decoration: none;
-    cursor: pointer;
+.info-item-hotline, .info-item-email{
+    /* display:table; */
+    margin-right: 100px;
+
+}
+.info-item-hotline a, .info-item-email a{
+    text-decoration:none;
 }
 .info-item-hotline:hover,
-.info-item-email:hover,.info-item-time:hover{
+.info-item-email:hover,
+.info-item-time:hover{
+    cursor: pointer;
     opacity: 0.8;
-    transition: all 0.5s;
-}
-.info-item-hotline, .info-item-email{
-    margin-right: 100px;
+    transition: 0.5s;
 }
 .info-item-email p:first-child,
 .info-item-hotline p:first-child,
@@ -115,7 +117,7 @@
     content:"";
     background-image: url("../img/icon-1.png");
     background-repeat: no-repeat;
-    top:45%;
+    top:25%;
     transform: translateY(-50%);
     width: 30px;
     height:30px;
@@ -126,7 +128,7 @@
     content:"";
     background-image: url("../img/icon-2.png");
     background-repeat: no-repeat;
-    top:45%;
+    top:25%;
     transform: translateY(-50%);
     width: 30px;
     height:30px;
@@ -137,7 +139,7 @@
     content:"";
     background-image: url("../img/icon-3.png");
     background-repeat: no-repeat;
-    top:45%;
+    top:25%;
     transform: translateY(-50%);
     width: 30px;
     height:30px;
