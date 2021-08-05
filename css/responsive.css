@@ -43,7 +43,7 @@
     padding-top: 5px;
   }
   .slick-dots{
-    padding-left: 90px;
+    padding-left: 15px;
   }
 }
 
@@ -105,7 +105,7 @@
   }
 
   .slick-dots{
-    padding-left: 118px;
+    padding-left: 125px;
   }
 }
 @media (max-width:1199px){
@@ -146,7 +146,7 @@
     padding: 40px 0 20px;
   } 
   .client-icon-vector img{
-    width: 40px;
+    width: 30px;
   }
   #ozone-about{
     padding:50px 0;
@@ -157,6 +157,9 @@
   /* .header-top{
     background-position: unset;
   } */
+  .map-img iframe{
+    height: 190px;
+  }
   .button-about{
     padding: 5px 0;
   }
@@ -184,7 +187,7 @@
     justify-content: space-evenly;
   }
   .slider-des .text-des {
-    font-size: 38px;
+    font-size: 34px;
 }
   .client-image-person img, .client-img{
     width:100%;
@@ -199,8 +202,11 @@
   .col-nav-foot,.col-signup-foot{
     padding:0;
   }
-  #ozone-about,.list-service{
-    padding: 20px 10px;
+  #ozone-about{
+    padding: 40px 10px;
+  }
+  .list-service{
+    padding: 40px 10px;
   }
   #ozone-client{
     padding-bottom: 10px;
@@ -212,10 +218,10 @@
     margin-left: 0;
   }
   .row-about-foot{
-    padding:10px
+    padding:30px 10px 0;
   }
   .contain-company, .contain-client{
-    padding: 10px 0;
+    padding: 40px 0;
   }
   .col-service:first-child{
     padding: 48px 40px 46px 20px;
@@ -237,36 +243,114 @@
   }
 
   .slick-dots{
-    padding-left: 0;
+    padding: 0;
     text-align: center;
   }
 }
 @media (max-width: 575px){
+  /*  */
+  .ozone-logo{
+    text-align:left;
+    padding:5px;
+  }
+  .ozone-logo img{
+    width: 100px;
+  }
+  .ozone-logo p{
+    display:none;
+  }
+  .ozone-header{
+    position: fixed !important;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+  }
+  .ozone-slider{
+    padding-top: 130px;
+  }
+  .slider-img{
+    margin-top:-55px;
+  }
+  .button-about .group-button{
+    margin-top:0;
+  }
+  /*  */
+  .ozone-nav ul li::before{
+    transform: unset;
+    height:1px;
+  }
+  .ozone-nav ul li:hover {
+    background-color:red;
+  }
+  .ozone-nav ul li{
+    border-bottom: unset;
+    transition: all 0.5s;
+  }
+  .ozone-nav ul{
+    position:fixed;
+    width: 100%;
+    min-height:100vh;
+    background:#265BC5;
+    top: 0;
+    left: -100%;
+    text-align: center;
+    display:block;
+    transition: all 0.5s linear;
+  }
+  .ozone-nav ul.show{
+    left: 0;
+  }
+  /*  */
+  .col-item-contact, .col-item-contact:first-child{
+    padding:0 40px;
+  }
+  .col-item-contact:first-child p{
+    font-size: 30px;
+  }
+  .contain-contact{
+    padding: 30px 0;
+  }
+  .col-item-contact img{
+    width: 50px;
+  }
+  .col-item-contact div{
+    padding-bottom: 10px;
+  }
+
+/*  */
+  .col-about-foot{
+    text-align:center;
+  }
+  .col-about-foot img{
+    width: 100px;
+  }
+  .col-about-foot p{
+    margin: 10px 0;
+    font-size:15px;
+  }
+  .footer-list-menu{
+    margin-bottom:10px;
+  }
+  .company-title p,.client-title p{
+    letter-spacing:0.2em;
+    margin-bottom: 5px;
+  } 
+  .about-text-head{
+    padding-bottom: 10px;
+  }
   .contain-group {
     padding: 0;
   }
   .about-content{
     padding: 40px 0 10px;
+    text-align:justify;
   }
   .about-text-title{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 32px;
   }
-.btn-bar{
+.btn-bar,.btn-phone,.btn-mail{
   display: block;
-}
-.ozone-nav ul{
-  position:fixed;
-  width: 100%;
-  min-height:50vh;
-  background:#265BC5;
-  top: 0;
-  left: -100%;
-  text-align: center;
-  display:block;
-  transition: all 0.5s linear;
-}
-.ozone-nav ul.show{
-  left: 0;
 }
   .button-slider {
     padding-top: 0px;
@@ -275,10 +359,7 @@
     padding-top: 50px;
   }
   .slider-des .text-des {
-    font-size: 32px;
-}
-  .slider-img {
-    margin-top: 0px;
+    font-size: 25px;
 }
 
   .about-img-text{
@@ -297,11 +378,8 @@
     bottom: 10px;
   }
   .contain-slider{
-    padding-top: 50px;
+    padding-top: 40px;
   }
-
-
-
   .logo-info{
     display:none;
   }
@@ -315,20 +393,21 @@
     margin: auto;
     text-align:center;
   }
-
-
-
   .contain-slider-fluid{
-    padding-bottom: 80px;
+    padding-bottom: 70px;
+  }
+  .slider-content{
+    text-align:justify;
+  }
+  .footer-list-title, .footer-signup-title{
+    font-size: 18px;
+    margin-bottom: 5px;
   }
 }
 @media (max-width: 375px){
   .about-img-text p{
     font-size:18px;
     margin:0;
-  }
-  .slider-des .text-des{
-    font-size:32px;
   }
   .about-icon-vector{
     left: 2vw;

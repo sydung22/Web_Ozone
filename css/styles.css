@@ -53,6 +53,7 @@
 .ozone-logo{
     padding: 10px 0 1px;
     position: relative;
+    text-align: center;
 }
 
 .ozone-logo::before{
@@ -199,7 +200,7 @@
 }
 /* Onzone Slider */
 .slider-img{
-    margin-top:-125px;
+    margin-top:-131px;
 }
 .slider-img > img{
     min-height: 886px;
@@ -328,6 +329,11 @@
     font-weight: bold;
 }
 /* Ozone Company */
+.company-title p{
+    font-size:14px;
+    color:#EE1F23;
+    letter-spacing: 0.3em;
+}
 .company-time{
     margin-left: 24px;
     position: relative;
@@ -386,6 +392,14 @@
     margin:auto;
 }
 /* Ozone Client */
+.contain-client{
+    overflow-x: hidden;
+}
+.client-title p{
+    font-size:14px;
+    color:#EE1F23;
+    letter-spacing: 0.3em;
+}
 .client-img-text{
     background:#265BC5;
     color: #f8f8f8;
@@ -458,7 +472,11 @@
 }
 .list-groupitem img{
     width: 203px;
-    height:73px;
+    transition: 0.5s
+}
+.list-groupitem img:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
 .contain-group{
     padding: 0 0 27px;
@@ -481,8 +499,22 @@
 .col-item-contact:first-child{
     padding: 50px 0;
 }
+.col-item-contact:first-child p{
+    font-size:42px; 
+    font-weight:bold;
+}
+.col-item-contact p{
+    font-size:14px;
+    font-weight:500;
+}
 .col-item-contact{
     padding:20px 0;
+    transition: 0.5s
+}
+.col-item-contact:hover{
+    /* opacity: 0.8; */
+    color: #ccc;
+    cursor: pointer;
 }
 /* Ozone Footer */
 .footer-list-menu li::marker{
@@ -492,14 +524,25 @@
     font-size: 14px;
     font-weight: 500;
 }
+.footer-list-menu li a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#505050;
+}
+.footer-list-menu li a:hover{
+    color: rgb(0, 195, 255);
+    transition: 0.5s
+}
 .footer-map-title{
     top:7px;
     left:0;
 }
-.footer-list-title{
+.footer-list-title,.footer-signup-title{
     font-size:20px;
     color: #265BC5;
     font-weight: bold; 
+}
+.footer-list-title{
     margin-left: 12px;
 }
 .footer-icon{
@@ -507,6 +550,16 @@
 }
 .col-about-foot{
     padding-right: 20px;
+}
+.col-about-foot img{
+    width:169px;
+}
+.col-about-foot .text-about-title{
+    color: #303030;
+    font-weight: bold; 
+}
+.col-about-foot p{
+    font-size:16px;
 }
 .col-nav-foot{
     padding-left: 80px;
@@ -525,11 +578,15 @@
 .form-control:focus{
     box-shadow: none;
 }
+.map-img iframe{
+    width: 100%;
+    height: 150px;
+}
 /* Slick Slider */
 .slick-dots{
-    text-align:unset;
-    padding-left: 65px;
-    bottom:-40px;
+    text-align:center;
+    bottom: -50px;
+    padding-right: 65px;
 }
 .slick-dots li{
     margin:0;
@@ -546,14 +603,30 @@
     border-radius: 50%;
     font-size: 10px;
 }
+
+
+.slick-initialized .slick-slide{
+    display:flex;
+}
+.slick-list{
+    overflow:unset;
+}
 /* Menu Bar */
-.btn-bar{
+.btn-bar,.btn-phone, .btn-mail{
     position: absolute;
     z-index: 2;
     font-size:30px;
     right:0;
-    padding-right: 20px;
     line-height:80px;
     display: none;
     color: #265BC5;
+}
+.btn-bar{
+    padding-right: 20px;
+}
+.btn-phone{
+    margin-right: 170px;
+}
+.btn-mail{
+    margin-right: 120px;
 }
