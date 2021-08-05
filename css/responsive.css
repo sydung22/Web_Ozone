@@ -122,7 +122,7 @@
 @media (max-width:991px){
 
   .col-item-contact:first-child{
-    padding: 20px 0;
+    padding: 20px 0 10px;
   }
 
   .slider-img {
@@ -143,7 +143,7 @@
     padding-left: 0;
 }
   .about-content{
-    padding: 40px 0 20px;
+    padding: 45px 0 0;;
   } 
   .client-icon-vector img{
     width: 30px;
@@ -157,6 +157,31 @@
   /* .header-top{
     background-position: unset;
   } */
+  .col-item-contact div{
+    padding-bottom: 10px;
+  }
+  .col-item-contact:first-child p{
+    font-size:35px;
+  }
+  .col-item-contact{
+    padding: 10px 0;
+  }
+  .footer-signup-title{
+    margin-bottom: 0;
+  }
+  .footer-list-title{
+    margin-bottom:5px;
+  }
+  .col-about-foot img{
+    width: 150px;
+  }
+  .group-button{
+    margin-top: 10px;
+  }
+  .about-text-title{
+    font-size:32px;
+    padding-bottom: 20px;
+  }
   .map-img iframe{
     height: 190px;
   }
@@ -218,7 +243,7 @@
     margin-left: 0;
   }
   .row-about-foot{
-    padding:30px 10px 0;
+    padding:25px 10px 0;
   }
   .contain-company, .contain-client{
     padding: 40px 0;
@@ -233,11 +258,12 @@
     padding: 0 10px;
   }
   .footer-list-menu{
-    padding-left: 19px;
+    padding-left: 0px;
+    margin-left: 0;
   }
-  .container{
+  /* .container{
     max-width:100%
-  }
+  } */
   .slider-des{
     padding: 0 10px;
   }
@@ -254,7 +280,7 @@
     padding:5px;
   }
   .ozone-logo img{
-    width: 100px;
+    width: 90px;
   }
   .ozone-logo p{
     display:none;
@@ -269,7 +295,7 @@
     padding-top: 130px;
   }
   .slider-img{
-    margin-top:-55px;
+    margin-top:-65px;
   }
   .button-about .group-button{
     margin-top:0;
@@ -308,10 +334,10 @@
     font-size: 30px;
   }
   .contain-contact{
-    padding: 30px 0;
+    padding: 25px 0 20px;
   }
   .col-item-contact img{
-    width: 50px;
+    width: 40px;
   }
   .col-item-contact div{
     padding-bottom: 10px;
@@ -330,24 +356,29 @@
   }
   .footer-list-menu{
     margin-bottom:10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   .company-title p,.client-title p{
-    letter-spacing:0.2em;
+    letter-spacing:0.15em;
     margin-bottom: 5px;
   } 
   .about-text-head{
     padding-bottom: 10px;
   }
   .contain-group {
-    padding: 0;
+    padding: 0 0 20px;
   }
   .about-content{
-    padding: 40px 0 10px;
     text-align:justify;
   }
   .about-text-title{
     padding-bottom: 10px;
-    font-size: 32px;
+    font-size: 28px;
+  }
+  .about-text-head{
+    letter-spacing: 0.15em;
   }
 .btn-bar,.btn-phone,.btn-mail{
   display: block;
@@ -401,7 +432,10 @@
   }
   .footer-list-title, .footer-signup-title{
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
+  }
+  .footer-signup-title{
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 375px){

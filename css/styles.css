@@ -517,12 +517,22 @@
     cursor: pointer;
 }
 /* Ozone Footer */
+.footer-list-menu{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 12px;
+}
+.footer-list-menu img{
+    width: 6px;
+    margin-right: 8px;
+}
 .footer-list-menu li::marker{
     color: #EE1F23;
 }
 .footer-list-menu li{
     font-size: 14px;
     font-weight: 500;
+    padding-right: 12px;
 }
 .footer-list-menu li a{
     text-decoration: none;
@@ -617,7 +627,7 @@
     z-index: 2;
     font-size:30px;
     right:0;
-    line-height:80px;
+    line-height:70px;
     display: none;
     color: #265BC5;
 }
