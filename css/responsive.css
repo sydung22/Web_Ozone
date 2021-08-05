@@ -376,6 +376,7 @@
   }
   .col-item-contact:first-child p{
     font-size: 25px;
+    padding-left: 0;
   }
   .contain-contact{
     padding: 25px 0 20px;
