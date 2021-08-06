@@ -1,7 +1,5 @@
 @media (min-width: 1400px) {
-  /* .header-top{
-    background-position: 57% center;
-  } */
+
 }
 @media (min-width: 1200px) {
   .container {
@@ -83,18 +81,10 @@
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-  /* .header-top{
-    background-position: 54% center;
-  } */
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
-
-  /* .header-top{
-    background-position: 39% center;
-  } */
-
   .client-des{
     padding-left: 20px;
   }
@@ -144,9 +134,6 @@
   .contain-slider{
     padding-top:140px
   }
-  /* .header-top{
-    background-position: 30% center;
-  } */
   .client-des{
     padding-left: 0px;
   }
@@ -243,7 +230,9 @@
     min-height:unset;
     padding-bottom: 100px;
   }
-
+  .about-img-text{
+    padding: 35px 18px 25px 68px;
+  }
 
   .row-client{
     padding-left: 0;
@@ -265,16 +254,18 @@
   }
 }
 @media (max-width: 767px) {
-
+  .col-item-contact:first-child{
+    padding:0;
+  }
+  .contain-contact{
+    padding: 30px 0;
+  }
   .col-service:nth-child(3){
     border-bottom: 1px solid #265BC5;
   }
   .contain-slider-fluid{
     padding-bottom: 70px;
   }
-  /* .header-top{
-    background-position: unset;
-  } */
   .col-item-contact div{
     padding-bottom: 10px;
   }
@@ -289,9 +280,6 @@
   }
   .footer-list-title{
     margin-bottom:5px;
-  }
-  .col-about-foot img{
-    width: 150px;
   }
   .group-button{
     margin-top: 10px;
@@ -309,7 +297,7 @@
     width: 90px;
   }
   .about-img-text{
-    padding: 43px 18px 33px 55px;;
+    padding: 35px 18px 20px 55px;
   }
   .about-icon-vector{
     right:300px;
@@ -369,6 +357,9 @@
   .footer-list-title{
     margin-left: 0;
   }
+  .col-about-foot{
+    text-align:center;
+  }
   .row-about-foot{
     padding:25px 10px 0;
   }
@@ -393,6 +384,7 @@
   }
   .text-about-title{
     padding-top: 10px;
+    margin: 0 0 5px;
   }
   .slick-dots{
     padding: 0;
@@ -485,13 +477,10 @@
     width: 35px;
   }
   .col-item-contact div{
-    padding-bottom: 10px;
+    padding-bottom: 6px;
   }
 
 /*  */
-  .col-about-foot{
-    text-align:center;
-  }
   .col-about-foot img{
     width: 100px;
   }
@@ -508,7 +497,6 @@
     margin-bottom: 5px;
   } 
   .about-text-head{
-    padding-bottom: 10px;
     letter-spacing: 0.15em;
   }
   .contain-group {
@@ -559,10 +547,6 @@
   .logo-info{
     display:none;
   }
-  /* .logo-info{
-    display:block;
-    padding-top: 0;
-  } */
   .info-item-email, .info-item-hotline,
   .info-item-time{
     display:table;
