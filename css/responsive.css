@@ -53,7 +53,7 @@
     cursor: pointer;
   }
   .company-image img:hover{
-    transform: scale(1.2); 
+    transform: scale(1.25); 
   }
   .client-image-person img:hover{
     transform: scale(1.2);
