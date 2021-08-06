@@ -38,7 +38,6 @@
     background-color: #265BC5;
     cursor: pointer;
     color: #fff;
-    transition: 0.7s; 
   }
   .col-service:nth-child(2):hover .icon-first{
     filter: none;
@@ -77,6 +76,10 @@
   .footer-list-menu li a:hover{
     color: rgb(0, 195, 255);
     transition: 0.5s; 
+  }
+  .input-group a:hover{
+    background-color: #000;
+    color: #fff;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {

@@ -15,20 +15,25 @@
     line-height:1.2;
     transition: ease-out 0.5s;
     position: relative;
-    overflow-x: hidden;
 }
-.group-button {
-    margin-top: 20px;
-    width: 227px;
-    height: 48px;
-    display: flex;
-}
-.group-button div{
-    background-color: #f8f8f8;
-    padding: 12px 16px;
-    font-size: 16px;
+.btn-arrow{
+    content: '';
+    position: absolute;
+    top: 0;
+    color: black;
+    left: 100%;
+    background-color: #F8F8F8;
+    text-align: center;
+    padding: 14px 16px;
+    height: 100%;
 }
 
+.group-button {
+    margin-top: 20px;
+    width: 221px;
+    display: flex;
+    overflow-x: hidden;
+}
 .group-button a::after{
     content: '';
     position:absolute;
@@ -295,6 +300,7 @@
 }
 .col-service{
     background:#f8f8f8;
+    transition: 0.7s;
 }
 .col-service:first-child{
     padding: 48px 48px 46px 52px;
@@ -561,6 +567,7 @@
     font-size:20px;
     padding: 14px 18px;
     line-height:1;
+    transition: 0.5s
 }
 .input-group .form-control{
     border-radius: unset;
