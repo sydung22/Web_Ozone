@@ -303,7 +303,17 @@
     padding: 5px 0;
   }
   .contain-slider{
-    padding-top: 140px;
+    padding-top: 50px;
+  }
+  .about-icon-vector img{
+    width: 90px;
+  }
+  .about-img-text{
+    padding: 43px 18px 33px 55px;;
+  }
+  .about-icon-vector{
+    right:300px;
+    bottom: 25px;
   }
   .client-ellip{
     padding-left: 38px;
@@ -315,6 +325,7 @@
     margin: 0;
   }
   .logo-info{
+    padding-top: 0;
     justify-content: center;
   }
   .button-slider{
@@ -387,6 +398,38 @@
     padding: 0;
     text-align: center;
   }
+  .slider-img{
+    margin-top:0;
+  }
+  /*  */
+  .ozone-nav ul li::before{
+    transform: unset;
+    height:1px;
+  }
+  .ozone-nav ul li:hover {
+    background-color:red;
+  }
+  .ozone-nav ul li{
+    border-bottom: unset;
+    transition: all 0.5s;
+  }
+  .ozone-nav ul{
+    position:fixed;
+    width: 100%;
+    min-height:100vh;
+    background:#000;
+    top: 0;
+    left: -100%;
+    text-align: center;
+    display:block;
+    transition: all 0.5s linear;
+  }
+  .ozone-nav ul.show{
+    left: 0;
+  }
+  .btn-bar{
+    display: block;
+  }
 }
 @media (max-width: 575px){
   /*  */
@@ -416,31 +459,6 @@
     margin-top:0;
   }
   /*  */
-  .ozone-nav ul li::before{
-    transform: unset;
-    height:1px;
-  }
-  .ozone-nav ul li:hover {
-    background-color:red;
-  }
-  .ozone-nav ul li{
-    border-bottom: unset;
-    transition: all 0.5s;
-  }
-  .ozone-nav ul{
-    position:fixed;
-    width: 100%;
-    min-height:100vh;
-    background:#000;
-    top: 0;
-    left: -100%;
-    text-align: center;
-    display:block;
-    transition: all 0.5s linear;
-  }
-  .ozone-nav ul.show{
-    left: 0;
-  }
   /*  */
   .col-item-contact, .col-item-contact:first-child{
     padding:0 10px;
@@ -503,7 +521,7 @@
     padding-bottom: 10px;
     font-size: 28px;
   }
-.btn-bar,.btn-phone,.btn-mail{
+  .btn-phone,.btn-mail{
   display: block;
 }
   .button-slider {
@@ -533,7 +551,7 @@
   }
   .about-icon-vector{
     right: 284px;
-    bottom: 10px;
+    bottom: 0;
   }
   .contain-slider{
     padding-top: 45px;
@@ -572,6 +590,6 @@
   }
   .about-icon-vector{
     left: 2vw;
-    bottom: 3vw;
+    bottom: 1.5vw;
   }
 }
