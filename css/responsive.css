@@ -8,6 +8,77 @@
      max-width: 1170px;
   }
 }
+@media (min-width: 1023px) {
+  .group-button div:hover{
+    cursor: pointer; 
+  }
+  .group-button a:hover::after{
+    left:100%;   
+  }
+  .group-button a:hover{
+    background:#000;
+    color: #fff;
+    cursor: pointer; 
+  }
+  .info-item-hotline:hover,
+  .info-item-email:hover,
+  .info-item-time:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+  }
+  .ozone-nav ul li:hover::before {
+    color: #FFFF;
+    transform: scale(1);  
+  }
+  .slider-icon i:hover{
+    color: #265BC5;  
+  }
+  .col-service:hover{
+    background-color: #265BC5;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.7s; 
+  }
+  .col-service:nth-child(2):hover .icon-first{
+    filter: none;
+  }
+  .col-service:hover .icon-first {
+    filter: grayscale(100%) brightness(110%) contrast(3) invert(100%);
+  }
+  .col-service:hover .ser-des p{
+    color: #fff;  
+  }
+  .company-card:hover{
+    box-shadow: 0px 0px 30px rgba(103, 92, 92, 0.25);
+    cursor: pointer;
+  }
+  .company-image img:hover{
+    transform: scale(1.2); 
+  }
+  .client-image-person img:hover{
+    transform: scale(1.2);
+    cursor: pointer;  
+  }
+  .about-image-person img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .list-groupitem img:hover{
+    opacity: 0.8;
+    cursor: pointer; 
+  }
+  .col-item-contact p:hover,
+  .col-item-contact a:hover{
+    /* opacity: 0.8; */
+    color: #ccc;
+    cursor: pointer; 
+  }
+  .footer-list-menu li a:hover{
+    color: rgb(0, 195, 255);
+    transition: 0.5s; 
+  }
+}
 @media (min-width: 1200px) and (max-width: 1399px) {
   /* .header-top{
     background-position: 54% center;
@@ -20,9 +91,7 @@
   /* .header-top{
     background-position: 39% center;
   } */
-  .card-content, .com-more{
-    padding: 0;
-  }
+
   .client-des{
     padding-left: 20px;
   }
@@ -31,10 +100,6 @@
   }
   .contain-company, .contain-client{
     padding: 100px 0;
-  }
-
-  .about-text-head{
-    padding-bottom: 5px;
   }
   .button-about{
     padding-top: 5px;
@@ -47,8 +112,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .icon-ser div:last-child img{
-    width: 60px;
-    height: 90px;
+    width: 80%;
   }
   .contain-group{
     padding: 0 0 10px;
@@ -80,12 +144,6 @@
   /* .header-top{
     background-position: 30% center;
   } */
-  .card-content{
-    padding: 0;
-  }
-  .card-title{
-    font-size:20px;
-  }
   .client-des{
     padding-left: 0px;
   }
@@ -102,7 +160,7 @@
     margin-right: 50px;
   }
   .col-service:first-child{
-    padding: 30px 20px 20px 20px;
+    padding: 30px 30px 20px 20px;
   }
   .col-service{
     padding: 30px 10px 20px 20px;
@@ -125,6 +183,12 @@
   }
 }
 @media (max-width:1199px){
+  .card-content, .com-more{
+    padding: 0 15px;
+  }
+  .card-title {
+    font-size:20px;
+  }
   .row-client{
     padding-left: 0;
 }
@@ -136,6 +200,19 @@
 }
 }
 @media (max-width:991px){
+  .button-about .group-button{
+    margin: auto;
+  }
+  .about-text-head{
+    padding-bottom: 5px;
+    text-align:center;
+  }
+  .about-text-head,.company-title p,.client-title p{
+    letter-spacing: 0.15em;
+  }
+  .about-content{
+    text-align: justify;
+  }
   .col-about-foot img{
     width: 140px;
   }
@@ -145,6 +222,7 @@
   .about-text-title{
     font-size:32px;
     padding-bottom: 15px;
+    text-align:center;
   }
   .col-item-contact:first-child{
     padding: 20px 0 0;
@@ -168,7 +246,7 @@
     padding-left: 0;
 }
   .about-content{
-    padding: 45px 0 0;;
+    padding: 55px 0 0;;
   } 
   .client-icon-vector img{
     width: 30px;
@@ -184,6 +262,7 @@
   }
 }
 @media (max-width: 767px) {
+
   .col-service:nth-child(3){
     border-bottom: 1px solid #265BC5;
   }
@@ -234,9 +313,6 @@
   }
   .logo-info{
     justify-content: center;
-  }
-  .card-title{
-    font-size:22px;
   }
   .button-slider{
     padding-top: 10px;
@@ -290,9 +366,6 @@
   }
   .col-service{
     padding: 48px 20px 46px;
-  }
-  .card-content, .com-more{
-    padding: 0 10px;
   }
   .footer-list-menu{
     padding-left: 0px;
@@ -355,7 +428,7 @@
     position:fixed;
     width: 100%;
     min-height:100vh;
-    background:#265BC5;
+    background:#000;
     top: 0;
     left: -100%;
     text-align: center;
@@ -408,14 +481,13 @@
     margin-bottom:10px;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
   }
   .company-title p,.client-title p{
-    letter-spacing:0.15em;
     margin-bottom: 5px;
   } 
   .about-text-head{
     padding-bottom: 10px;
+    letter-spacing: 0.15em;
   }
   .contain-group {
     padding: 0 0 20px;
@@ -426,9 +498,6 @@
   .about-text-title{
     padding-bottom: 10px;
     font-size: 28px;
-  }
-  .about-text-head{
-    letter-spacing: 0.15em;
   }
 .btn-bar,.btn-phone,.btn-mail{
   display: block;
