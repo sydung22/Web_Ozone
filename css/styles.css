@@ -221,7 +221,6 @@
     font-size:16px;
     font-weight:unset;
     font-family: 'Open Sans', sans-serif;
-
 }
 .contain-slider-fluid{
     background-image:url(../img/slider-ozone.jpg);
@@ -711,7 +710,25 @@
     transform: rotate(-45deg) translate(15px, 15px);
     background:#EE1F23;
 }
-
+/* Button scroll Top */
+#btnScrolltoTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e62739;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    z-index: 999;
+  }
+  #btnScrolltoTop:active{
+    background-color: #cc2333 ;
+  }
 
 
 

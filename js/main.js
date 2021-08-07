@@ -29,5 +29,10 @@ menuBtn.addEventListener('click', () => {
     menuOpen = false;
   }
 
-})
+});
+
+const btnScrolltoTop = document.querySelector('#btnScrolltoTop');
+btnScrolltoTop.addEventListener('click', function(){
+  $('html, body').animate({scrollTop: 0}, 'slow');
+});
 
