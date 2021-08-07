@@ -251,7 +251,7 @@
     padding-left: 0;
 }
   .about-content{
-    padding: 55px 0 0;;
+    padding: 50px 0 0;;
   } 
   .client-icon-vector img{
     width: 30px;
@@ -514,9 +514,6 @@
   }
   .contain-group {
     padding: 0 0 20px;
-  }
-  .about-content{
-    text-align:justify;
   }
   .about-text-title{
     padding-bottom: 10px;
