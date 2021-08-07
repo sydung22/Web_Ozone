@@ -267,6 +267,12 @@
   }
 }
 @media (max-width: 767px) {
+  .ozone-header{
+    position: fixed !important;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+  }
   .col-item-contact:first-child{
     padding:0;
   }
@@ -406,6 +412,9 @@
   .slider-img{
     margin-top:0;
   }
+  #ozone-slider{
+    padding-top: 188px;
+  }
   /*  */
   .ozone-nav ul li::before{
     transform: unset;
@@ -448,17 +457,8 @@
   .ozone-logo p{
     display:none;
   }
-  .ozone-header{
-    position: fixed !important;
-    width: 100%;
-    background-color: #fff;
-    z-index: 999;
-  }
   #ozone-slider{
-    padding-top: 130px;
-  }
-  .slider-img{
-    margin-top:-65px;
+    padding-top: 70px;
   }
   .button-about .group-button{
     margin-top:0;
