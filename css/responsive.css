@@ -85,6 +85,9 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .text-about-card{
+    font-size: 1.2rem;
+  }
   .client-des{
     padding-left: 20px;
   }
@@ -104,6 +107,9 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .text-about-card{
+    font-size: 1.65rem;
+  }
   .icon-ser div:last-child img{
     width: 80%;
   }
@@ -237,9 +243,9 @@
     min-height:unset;
     padding-bottom: 100px;
   }
-  .about-img-text{
+  /* .about-img-text{
     padding: 35px 18px 25px 68px;
-  }
+  } */
 
   .row-client{
     padding-left: 0;
@@ -300,16 +306,16 @@
   .contain-slider{
     padding-top: 50px;
   }
-  .about-icon-vector img{
+  /* .about-icon-vector img{
     width: 90px;
-  }
-  .about-img-text{
+  } */
+  /* .about-img-text{
     padding: 35px 18px 20px 55px;
-  }
-  .about-icon-vector{
+  } */
+  /* .about-icon-vector{
     right:300px;
     bottom: 25px;
-  }
+  } */
   .client-ellip{
     padding-left: 38px;
   }
@@ -516,9 +522,6 @@
     padding-bottom: 10px;
     font-size: 28px;
   }
-  .btn-phone,.btn-mail{
-  display: block;
-}
   .button-slider {
     padding-top: 5px;
   }
@@ -533,30 +536,54 @@
     font-size: 15px;
     line-height: 1.4;
   }
-  .about-img-text{
+  /* .about-img-text{
     right: 20px;
     padding:30px 10px 30px 60px;
-  }
-  .about-img-text p{
+  } */
+  /* .about-img-text p{
     font-size:18px;
     margin:0;
-  }
-  .about-icon-vector img{
+  } */
+  /* .about-icon-vector img{
     width: 60px;
-  }
-  .about-icon-vector{
+  } */
+  /* .about-icon-vector{
     right: 284px;
     bottom: 0;
-  }
+  } */
   .contain-slider{
     padding-top: 45px;
   }
-  .logo-info{
+  /* .logo-info{
+    display:none;
+  } */
+  /* .btn-phone,.btn-mail{
+    display: none;
+  } */
+  .contain-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+  .logo-info .info-item-email a::before{
+    right: 65px;
+    top:5px;
+  }
+  .logo-info .info-item-hotline a::before{
+    right: 110px;
+    top:3px;
+  }
+  .info-item-time{
     display:none;
   }
+  .info-item-email p, .info-item-hotline p{
+    display:none;
+  }
+
+
+
   .info-item-email, .info-item-hotline,
   .info-item-time{
-    display:table;
     margin: auto;
     text-align:center;
   }
@@ -573,14 +600,17 @@
   .slider-des .text-des:nth-child(2){
     text-align:justify;
   }
+  .text-about-card{
+    font-size:3.5vw;
+  }
 }
 @media (max-width: 375px){
-  .about-img-text p{
+  /* .about-img-text p{
     font-size:18px;
     margin:0;
   }
   .about-icon-vector{
     left: 2vw;
     bottom: 1.5vw;
-  }
+  } */
 }

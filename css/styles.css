@@ -43,6 +43,7 @@
     width: 100%;
     height:100%;
     background: linear-gradient(90deg, transparent, rgba(255,255,255,.4), transparent);
+    transform: skewX(-45deg);
     transition: 0.5s;
 }
 /* Ozone Header */
@@ -261,12 +262,12 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-.about-icon-vector{
+/* .about-icon-vector{
     bottom: 20px;
     right: 295px;
     z-index: 1;
-}
-.about-img-text{
+} */
+/* .about-img-text{
     background:#265BC5;
     color: #f8f8f8;
     max-width: 327px;
@@ -274,12 +275,12 @@
     bottom: -30px;
     right: 30px;
     font-family: 'Mulish', sans-serif;
-}
-.about-img-text p{
+} */
+/* .about-img-text p{
     font-size: 20px;
     font-weight: 800;
     line-height: 1.4;
-}
+} */
 .row-about-foot{
     padding: 42px 0;
 }
@@ -648,7 +649,7 @@
     overflow:unset;
 }
 /* Menu Bar */
-.btn-phone{
+/* .btn-phone{
     margin-right: 120px;
 }
 .btn-mail{
@@ -662,7 +663,7 @@
     line-height:70px;
     display: none;
     color: #265BC5;
-}
+} */
 .btn-bar{
     position:absolute;
     right: 10px;
@@ -728,6 +729,43 @@
   }
   #btnScrolltoTop:active{
     background-color: #cc2333 ;
+  }
+
+
+
+  .text-about-card{
+    padding: 0 10px 0 10%;
+    position: absolute;
+    right: 5%;
+    width: 55%;
+    height: 32%;
+    background-color: #265bc5;
+    bottom: -5%;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    display: flex;
+    /* -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center; */
+    align-items: center;
+    /* -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; */
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1.36em;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+  }
+  .text-about-card img{
+    position: absolute;
+    top: 15%;
+    left: -9%;
+    width: 25%;
   }
 
 
