@@ -137,7 +137,7 @@
     transform: translateY(-50%);
     width: 30px;
     height:30px;
-    right: calc((100% + 3px))
+    right: calc((100% + 3px));
 }
 .logo-info .info-item-email a::before{
     position: absolute;
@@ -148,7 +148,7 @@
     transform: translateY(-50%);
     width: 30px;
     height:30px;
-    right: calc((100% + 3px))
+    right: calc((100% + 3px));
 }
 .logo-info .info-item-time a::before{
     position: absolute;
@@ -159,7 +159,7 @@
     transform: translateY(-50%);
     width: 30px;
     height:30px;
-    right: calc((100% + 3px))
+    right: calc((100% + 3px));
 }
 .ozone-nav{
     border-bottom: 1px solid #E0E0E0;
@@ -278,7 +278,7 @@
 }
 .about-img-text p{
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 800;
     line-height: 1.4;
 }
 .row-about-foot{
