@@ -147,7 +147,14 @@
     padding: 50px 0;
   }
   .info-item-hotline, .info-item-email{
-    margin-right: 50px;
+    margin-right: 45px;
+  }
+  .logo-info .info-item-email a::before,
+  .logo-info .info-item-time a::before{
+    right: 100%;
+  }
+  .logo-info p{
+    font-size:13px;
   }
   .col-service:first-child{
     padding: 30px 30px 20px 20px;
