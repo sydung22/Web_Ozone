@@ -563,15 +563,15 @@
   .contain-slider-fluid{
     padding-bottom: 70px;
   }
-  .slider-content{
-    text-align:justify;
-  }
   .footer-list-title, .footer-signup-title{
     font-size: 18px;
     margin-bottom: 0;
   }
   .footer-signup-title{
     margin-bottom: 10px;
+  }
+  .slider-des .text-des:nth-child(2){
+    text-align:justify;
   }
 }
 @media (max-width: 375px){
