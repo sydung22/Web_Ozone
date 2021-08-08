@@ -466,30 +466,30 @@
   /*  */
   .col-item-contact, .col-item-contact:first-child{
     padding:0 10px;
-    display:flex;
-    align-items: center;
-  }
-  .col-item-contact:first-child{
-    justify-content:center;
   }
   .col-item-contact:first-child p{
     font-size: 25px;
     padding-left: 0;
     margin: 0 0 5px 0;
+    text-align:center;
+  }
+  .col-item-contact{
+    text-align:left!important;
   }
   .contain-contact{
     padding: 25px 0 20px;
   }
   .col-item-contact a{
     margin:0;
-    padding-left: 10px;
-    text-align: left;
+    display:flex;
+    align-items: center;
   }
   .col-item-contact img{
     width: 35px;
   }
   .col-item-contact div{
     padding-bottom: 6px;
+    padding-right: 10px;
   }
 
 /*  */
