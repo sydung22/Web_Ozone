@@ -48,7 +48,9 @@
   }
   .company-card:hover{
     box-shadow: 0px 0px 30px rgba(103, 92, 92, 0.25);
-    cursor: pointer;
+  }
+  .company-card a:hover{
+    color: #212529;
   }
   .company-card:hover .company-image img{
     transform: scale(1.25); 
@@ -551,9 +553,6 @@
   /* .logo-info{
     display:none;
   } */
-  /* .btn-phone,.btn-mail{
-    display: none;
-  } */
   .contain-header{
     display: flex;
     align-items: center;
@@ -599,12 +598,5 @@
   }
 }
 @media (max-width: 375px){
-  /* .about-img-text p{
-    font-size:18px;
-    margin:0;
-  }
-  .about-icon-vector{
-    left: 2vw;
-    bottom: 1.5vw;
-  } */
+
 }

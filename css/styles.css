@@ -392,6 +392,10 @@
 .company-card{
     transition: 0.6s;
 }
+.company-card a{
+    text-decoration: none;
+    color: #212529;
+}
 .company-image{
     overflow: hidden;
 }
@@ -649,21 +653,7 @@
     overflow:unset;
 }
 /* Menu Bar */
-/* .btn-phone{
-    margin-right: 120px;
-}
-.btn-mail{
-    margin-right: 75px;
-}
-.btn-phone, .btn-mail{
-    position: absolute;
-    z-index: 2;
-    font-size:30px;
-    right:0;
-    line-height:70px;
-    display: none;
-    color: #265BC5;
-} */
+
 .btn-bar{
     position:absolute;
     right: 10px;
