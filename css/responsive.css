@@ -55,15 +55,12 @@
   }
   .client-image-person img:hover{
     transform: scale(1.2);
-    cursor: pointer;  
   }
   .about-image-person img:hover{
-    cursor: pointer;
     transform: scale(1.1);
   }
   .list-groupitem img:hover{
     opacity: 0.8;
-    cursor: pointer; 
   }
   .col-item-contact p:hover,
   .col-item-contact a:hover{
