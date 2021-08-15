@@ -14,7 +14,7 @@
     left:100%;   
   }
   .group-button a:hover{
-    background:#000;
+    background:#265BC5;
     color: #fff;
     cursor: pointer; 
   }
@@ -71,11 +71,10 @@
     cursor: pointer; 
   }
   .footer-list-menu li a:hover{
-    color: rgb(0, 195, 255);
-    transition: 0.5s; 
+    color: #EE1F23;
   }
   .input-group a:hover{
-    background-color: #000;
+    background-color: #265BC5;
     color: #fff;
   }
 }

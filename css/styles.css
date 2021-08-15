@@ -565,6 +565,7 @@
     text-decoration: none;
     font-size: 14px;
     color:#505050;
+    transition: 0.5s; 
 }
 .text-about-title{
     padding-top:20px;
