@@ -717,6 +717,15 @@
     outline: none;
     cursor: pointer;
     z-index: 999;
+    transform: translateX(100px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+#btnScrolltoTop.active{
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
   }
   #btnScrolltoTop:active{
     background-color: #cc2333 ;
